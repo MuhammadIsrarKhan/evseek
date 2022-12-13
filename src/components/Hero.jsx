@@ -180,10 +180,10 @@ const Hero = () => {
       {/* end of second page  */}
       <div className="h-[598px] md:h-[60vh] bg-[#0F2A0F] text-center flex flex-col items-center relative overflow-hidden">
         <div className="md:absolute md:right-0 md:top-[20%] md:w-[50%]">
-          <p className="font-semibold text-[22px] text-[#FFFFFF] pt-10 mx-10 font-jost">
+          <p className="font-semibold text-[22px] text-[#FFFFFF] md:text-[42px] md:w-[447px] md:text-left md:leading-[48px] pt-10 mx-10 font-jost">
             EVSeek is available all over Finland.
           </p>
-          <p className="font-normal text-xs text-[#EDF3F0] mt-5 mx-10 font-inter">
+          <p className="font-normal text-xs md:text-lg md:text-left text-[#EDF3F0] mt-5 mx-10 font-inter">
             The Map includes all charging stations in Finland met minim mollit
             non deserunt ullamco est sit aliqua dolor do amet sint. Velit
             officia consequat duis.
@@ -199,16 +199,16 @@ const Hero = () => {
       {/* end of third page  */}
       <div className="h-[598px] md:h-[60vh] bg-[#F5F5F5] text-center flex flex-col items-center relative overflow-hidden">
         <div className="md:absolute md:left-0 md:top-[30%] md:w-[50%]">
-          <p className="font-semibold text-[22px] text-[#000000] pt-10 mx-10 font-jost">
-            EVSeek has never been more reliable.
+          <p className="font-semibold text-[22px]  text-[#000000] pt-10 mx-10 font-jost md:w-[416px] md:text-left md:leading-[42px] md:text-[42px]">
+            Plan your trip using EVSeek.
           </p>
-          <p className="font-normal text-xs text-[#52525B] mt-5 mx-10 font-inter">
+          <p className="font-normal text-xs md:text-lg md:text-left text-[#52525B] mt-5 mx-10 font-inter">
             Plan custom trips in order to recharge your electric car at the
             ideal stops. Amet minim mollit non deserunt ullamco est sit aliqua
             dolor do amet sint. Velit officia consequat duis enim velit mollit.
           </p>
         </div>
-        <div className="absolute -bottom-48 md:right-2">
+        <div className="absolute -bottom-48 md:right-0">
           <div className="w-[477px] h-[477px] bg-[#FFC947] rounded-full"></div>
         </div>
         <div className="absolute -bottom-0 md:right-16">
@@ -217,78 +217,79 @@ const Hero = () => {
       </div>
       {/* end of fourth page */}
       {/* start pricing & plan page  */}
-      <div className="h-[1339px] bg-[#FFFFFF] flex flex-col items-center">
-        <p className="font-semibold text-[22px] text-[#000000] font-jost mt-5 leading-8">
+      <div className="h-[1339px] md:h-[100vh]  bg-[#FFFFFF] flex flex-col items-center">
+        <p className="font-semibold md:text-5xl md:mt-10 text-[#000000] font-jost mt-5 leading-8">
           Pricing & Plan
         </p>
-        <p className="font-normal text-xs text-[#52525B] mt-5 mx-10 font-inter text-center">
-          Plan custom trips in order to recharge your electric car at the ideal
-          stops. Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-          amet sint. Velit officia consequat duis enim velit mollit.
+        <p className="font-normal text-xs md:text-lg text-[#52525B] mt-5 mx-10 md:mx-28 font-inter text-center">
+          Both a free trial and a free set of features for anyone who wants to
+          use them. Choose your favourite plan.
         </p>
-        <div className="h-[22%] w-[75vw] bg-[#F4F5F4] mt-10 rounded-lg flex flex-col items-center relative">
-          <p className="font-inter font-bold text-xs mt-[8%]">BASIC</p>
-          <p className="text-[#18181B] font-Space font-bold leading-[30px] text-lg mt-[2%]">
-            ${" "}
-            <span className="text-xl leading-[61px] font-black text-[43px] inline-block -translate-x-1">
-              29
-            </span>
-          </p>
-          <p className="font-inter font-normal text-xs leading-7 mx-[10%] text-center mt-[8%]sm:mt-[6%]">
-            Basic Main Features 250+ EV Charging Stations
-          </p>
-          <button className="text-[#12141D] font-bold text-xs font-jost leading-5 bg-[#FFFFFF] w-[60vw] h-[5vh] rounded absolute bottom-4">
-            Start 14 Days Free Trial
-          </button>
-        </div>
-        <div className="h-[22%] w-[75vw] bg-[#0F2A0F] mt-[8%] rounded-lg flex flex-col items-center relative">
-          <p className="font-inter font-bold text-xs mt-[8%] text-[#FFFFFF]">
-            STANDARD
-          </p>
-          <p className="text-[#FFFFFF] font-Space font-bold leading-[30px] text-lg mt-[2%]">
-            ${" "}
-            <span className="text-xl leading-[61px] font-black text-[43px] inline-block -translate-x-1">
-              29
-            </span>
-          </p>
-          <p className="font-inter font-normal text-xs leading-7 mx-[10%] text-center mt-[6%] text-[#FFFFFF]">
-            Standard Main Features 500+ EV Charging Stations Late Customer
-            Support No Ads
-          </p>
-          <button className=" font-bold text-xs font-jost leading-5 bg-[#21D57C] text-[#FFFFFF] w-[60vw] h-[5vh] rounded absolute bottom-4">
-            Start 14 Days Free Trial
-          </button>
-        </div>
-        <div className="h-[22%] w-[75vw] bg-[#F4F5F4] mt-10 rounded-lg flex flex-col items-center relative">
-          <p className="font-inter font-bold text-xs mt-[8%]">PREMIUM</p>
-          <p className="text-[#18181B] font-Space font-bold leading-[30px] text-lg mt-[2%]">
-            ${" "}
-            <span className="text-xl leading-[61px] font-black text-[43px] inline-block -translate-x-1">
-              99
-            </span>
-          </p>
-          <p className="font-inter font-normal text-xs leading-7 mx-[10%] text-center mt-[8%]">
-            All Modules 24/7 Live Support
-          </p>
-          <button className="text-[#12141D] font-bold text-xs font-jost leading-5 bg-[#FFFFFF] w-[60vw] h-[5vh] rounded absolute bottom-4">
-            Start 14 Days Free Trial
-          </button>
+        <div className="h-[1339px] md:flex md:flex-row md:gap-4 md:justify-center md:mt-14">
+          <div className="h-[22%] md:h-[70%] w-[75vw] md:w-[30%] bg-[#F4F5F4] mt-10 rounded-lg flex flex-col  items-center relative">
+            <p className="font-inter font-bold text-xs mt-[8%]">BASIC</p>
+            <p className="text-[#18181B] font-Space font-bold leading-[30px] md:text-2xl mt-[2%] md:mt-8 text-lg ">
+              ${" "}
+              <span className="text-xl leading-[61px] font-black text-[58px] inline-block -translate-x-1">
+                29
+              </span>
+            </p>
+            <p className="font-inter font-normal text-xs md:text-base leading-7 mx-[10%] text-center mt-[8%] md:mt-5 sm:mt-[6%]">
+              Basic Main Features 250+ EV Charging Stations
+            </p>
+            <button className="text-[#12141D] font-bold text-xs md:text-base font-jost leading-5 bg-[#FFFFFF] w-[60vw] md:w-[80%] h-[5vh] rounded absolute bottom-4">
+              Start 14 Days Free Trial
+            </button>
+          </div>
+          <div className="h-[22%] w-[75vw] md:h-[77.5%] md:shadow md:w-[30%] bg-[#0F2A0F] mt-[8%] md:mt-0 rounded-lg flex flex-col items-center relative">
+            <p className="font-inter font-bold text-xs mt-[8%] text-[#FFFFFF]">
+              STANDARD
+            </p>
+            <p className="text-[#FFFFFF] font-Space font-bold leading-[30px] text-lg  md:text-2xl md:mt-8 mt-[2%]">
+              ${" "}
+              <span className="text-xl leading-[61px] font-black text-[43px] md:text-[58px] inline-block -translate-x-1">
+                29
+              </span>
+            </p>
+            <p className="font-inter font-normal text-xs md:text-base leading-7 mx-[10%] text-center mt-[6%] text-[#FFFFFF]">
+              Standard Main Features 500+ EV Charging Stations Late Customer
+              Support No Ads
+            </p>
+            <button className=" font-bold text-xs md:text-base font-jost leading-5 bg-[#21D57C] text-[#FFFFFF] w-[60vw] h-[5vh] rounded absolute bottom-4 md:w-[80%]">
+              Start 14 Days Free Trial
+            </button>
+          </div>
+          <div className="h-[22%] md:h-[70%] w-[75vw] md:w-[30%] bg-[#F4F5F4] mt-10 rounded-lg flex flex-col items-center relative">
+            <p className="font-inter font-bold text-xs mt-[8%]">PREMIUM</p>
+            <p className="text-[#18181B] font-Space font-bold leading-[30px] text-lg md:text-2xl mt-[2%] md:mt-8">
+              ${" "}
+              <span className="text-xl leading-[61px] font-black text-[43px] md:text-[58px] inline-block -translate-x-1">
+                99
+              </span>
+            </p>
+            <p className="font-inter font-normal text-xs md:text-base leading-7 mx-[10%] text-center mt-[8%]">
+              All Modules 24/7 Live Support
+            </p>
+            <button className="text-[#12141D] font-bold text-xs font-jost leading-5 bg-[#FFFFFF] w-[60vw] h-[5vh] rounded absolute bottom-4 md:w-[80%] md:text-base">
+              Start 14 Days Free Trial
+            </button>
+          </div>
         </div>
       </div>
       {/* end pricing & plan page  */}
       {/* start of 6th page  */}
       <div className="h-[429px] bg-[#7FC37E] flex flex-col items-center">
-        <p className="text-[#FAFAFA] font-jost font-semibold text-[22px] tracking-wider mt-10">
+        <p className="text-[#FAFAFA] font-jost font-semibold text-[22px] md:text-[42px] tracking-wider mt-10">
           Get latest news & updates
         </p>
-        <p className="text-[#FFFFFF] font-normal text-xs leading-4 tracking-wider font-inter text-center mx-8 mt-5">
+        <p className="text-[#FFFFFF] font-normal text-xs md:text-lg md:w-[463px] leading-4 tracking-wider font-inter text-center mx-8 mt-5">
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
           sint. Velit officia duis.
         </p>
-        <form className="relative w-[90vw] mt-8">
+        <form className="relative w-[90vw] md:w-[578px] mt-8">
           <input
             type="search"
-            className="block w-[90vw] focus:outline-none p-3  font-bold text-xs   rounded-lg bg-[#F4F4F4] caret-[#7FC37E]"
+            className="block w-[90vw] md:w-[578px] focus:outline-none p-3  font-bold text-xs   rounded-lg bg-[#F4F4F4] caret-[#7FC37E]"
             placeholder="Enter your email address"
             required
           />
@@ -296,45 +297,47 @@ const Hero = () => {
             Subscribe Now
           </span>
         </form>
-        <p className="text-[#FFFFFF] font-normal text-xs leading-4 tracking-wider font-inter text-center mx-8 mt-2">
+        <p className="text-[#FFFFFF] font-normal text-xs md:text-sm leading-4 tracking-wider font-inter text-center mx-8 mt-2">
           No ads. No trails. No commitments
         </p>
-        <div className="flex flex-row mt-20 gap-16">
-          <div className="flex flex-col items-center gap-3">
-            <p className="font-jost font-semibold text-xl text-[#FFFFFF] leading-3">
+        <div className="flex flex-row mt-20 md:mt-5 gap-16">
+          <div className="flex flex-col items-center gap-3 md:gap-1">
+            <p className="font-jost font-semibold text-xl md:text-4xl text-[#FFFFFF] leading-3">
               6+
             </p>
-            <p className="font-jost font-medium text-xs text-[#FFFFFF] leading-3">
+            <p className="font-jost font-medium text-xs md:text-xl text-[#FFFFFF] leading-3">
               Years in Business
             </p>
-            <p className="font-jost font-normal text-center text-xs text-[#FFFFFF] leading-3">
+            <p className="font-jost font-normal text-center text-xs md:text-base text-[#FFFFFF] leading-3">
               Creating the successful path
             </p>
           </div>
-          <div className="flex flex-col items-center gap-3">
-            <p className="font-jost font-semibold text-xl text-[#FFFFFF] leading-3">
+          <div className="flex flex-col items-center gap-3 md:gap-1">
+            <p className="font-jost font-semibold text-xl md:text-4xl text-[#FFFFFF] leading-3">
               482K+
             </p>
-            <p className="font-jost font-medium text-xs text-[#FFFFFF] leading-3">
+            <p className="font-jost font-medium text-xs text-[#FFFFFF] md:text-xl leading-3">
               Years in Business
             </p>
-            <p className="font-jost font-normal text-center text-xs text-[#FFFFFF] leading-3">
+            <p className="font-jost font-normal text-center text-xs md:text-base text-[#FFFFFF] leading-3">
               Creating the successful path
             </p>
           </div>
         </div>
       </div>
       {/* end of the sixth page  */}
-      <div className="h-[295px] bg-[#F3FDF3] flex flex-col items-center">
-        <img
-          className="w-[80vw] h-[15vh] mt-5"
-          src={downloadApp}
-          alt="download app"
-        />
-        <p className="font-inter -translate-y-2 mx-5 font-normal text-xs text-[#525B52] leading-5 text-center">
-          Our goal is to make it easy for new EV owners to charge with low
-          electricity cost/unit.
-        </p>
+      <div className="h-[295px] bg-[#F3FDF3] flex flex-col md:flex-row md:gap-5 md:justify-between md:p-10 items-center">
+        <div className="md:w-[470px]">
+          <img
+            className="w-[80vw] h-[15vh] mt-5 mx-auto"
+            src={downloadApp}
+            alt="download app"
+          />
+          <p className="font-inter -translate-y-2 mx-5 md:mx-0 md:text-left font-normal text-xs md:text-lg text-[#525B52] leading-5 text-center">
+            Our goal is to make it easy for new EV owners to charge with low
+            electricity cost/unit.
+          </p>
+        </div>
         <div className="flex flex-row justify-between gap-5 mt-9">
           <button>
             <img src={FirstBtn} alt="FirstBtn" />
@@ -346,22 +349,22 @@ const Hero = () => {
       </div>
       {/* end of fifth page  */}
       {/* footer start  */}
-      <div className="h-[729px] bg-[#FFFFFF] flex flex-col">
-        <div className="p-10 pb-0 sm:pl-[17%] sm:pb-0">
+      <div className="h-[729px] sm:h-[600px] md:h-[465px] md:p-32 bg-[#FFFFFF] flex flex-col md:flex-row md:gap-16 md:justify-center">
+        <div className="p-10 pb-0 sm:pl-[17%] sm:pb-0 md:p-0">
           <img src={mainLogo} alt="mainLogo" />
-          <ul className="font-inter font-normal text-xs text-[#525B52] mt-8">
+          <ul className="font-inter font-normal text-xs md:text-base text-[#525B52] mt-8">
             <li className="mt-3">About</li>
             <li className="mt-3">Features</li>
             <li className="mt-3">Works</li>
             <li className="mt-3">Career</li>
           </ul>
         </div>
-        <div className="flex flex-row justify-between p-10 sm:justify-center gap-[40%]">
+        <div className="flex flex-row  justify-between p-10 md:p-0 sm:justify-center gap-[40%] md:gap-16">
           <div>
-            <p className="font-semibold text-sm text-[#181B18] font-inter">
+            <p className="font-semibold text-sm md:text-lg text-[#181B18] font-inter">
               Help
             </p>
-            <ul className="font-inter font-normal text-xs text-[#525B52] mt-3">
+            <ul className="font-inter font-normal text-xs md:text-base text-[#525B52] mt-3">
               <li className="mt-3">Customer Support</li>
               <li className="mt-3">Booking Details</li>
               <li className="mt-3">Terms & Conditions</li>
@@ -369,10 +372,10 @@ const Hero = () => {
             </ul>
           </div>
           <div>
-            <p className="font-semibold text-sm text-[#181B18] font-inter">
+            <p className="font-semibold text-sm text-[#181B18] font-inter md:text-lg">
               Resources
             </p>
-            <ul className="font-inter font-normal text-xs text-[#525B52] mt-3">
+            <ul className="font-inter font-normal text-xs md:text-base text-[#525B52] mt-3">
               <li className="mt-3">Free eBooks</li>
               <li className="mt-3">Standard Safety Guide</li>
               <li className="mt-3">How to - Blog</li>
@@ -380,12 +383,12 @@ const Hero = () => {
             </ul>
           </div>
         </div>
-        <div className="flex flex-row justify-between sm:justify-center gap-[40%] p-10 pt-0">
+        <div className="flex flex-row justify-between sm:justify-center gap-[40%] md:gap-16 p-10 pt-0">
           <div>
-            <p className="font-semibold text-sm text-[#181B18] font-inter">
+            <p className="font-semibold text-sm text-[#181B18] font-inter md:text-lg">
               Extra Links
             </p>
-            <ul className="font-inter font-normal text-xs text-[#525B52] mt-3">
+            <ul className="font-inter font-normal text-xs md:text-base text-[#525B52] mt-3">
               <li className="mt-3">Customer Support</li>
               <li className="mt-3">Booking Details</li>
               <li className="mt-3">Terms & Conditions</li>
@@ -393,10 +396,10 @@ const Hero = () => {
             </ul>
           </div>
           <div>
-            <p className="font-semibold text-sm text-[#181B18] font-inter">
+            <p className="font-semibold text-sm text-[#181B18] font-inter md:text-lg">
               Policies
             </p>
-            <ul className="font-inter font-normal text-xs text-[#525B52] mt-3">
+            <ul className="font-inter font-normal text-xs md:text-base text-[#525B52] mt-3">
               <li className="mt-3">Free eBooks</li>
               <li className="mt-3">Standard Safety Guide</li>
               <li className="mt-3">How to - Blog</li>
@@ -404,33 +407,38 @@ const Hero = () => {
             </ul>
           </div>
         </div>
-        <div className="flex flex-row justify-center gap-10 sm:gap-1 flex-wrap relative">
-          <img
-            className="sm:w-[15%] sm:h-[15%]"
-            src={twitterIcon}
-            alt="twitterIcon"
-          />
-          <img
-            className="sm:w-[15%] sm:h-[15%]"
-            src={facebookIcon}
-            alt="twitterIcon"
-          />
-          <img
-            className="sm:w-[15%] sm:h-[15%]"
-            src={instaIcon}
-            alt="twitterIcon"
-          />
-          <img
-            className="sm:w-[15%] sm:h-[15%]"
-            src={githubIcon}
-            alt="twitterIcon"
-          />
-          <img
-            className="w-[65vw] h-[8vh] sm:w-[55vw] sm:h-[6vh] absolute mt-[8%]"
-            src={copyWrite}
-            alt="copyWrite"
-          />
+      </div>
+      <div className="flex flex-row justify-center items-center md:p-32 md:pt-0 md:justify-start md:flex-nowrap gap-10 my-20 mt-0  flex-wrap relative">
+        <img
+          className="sm:w-[3%] md:w-[2%] sm:h-[3%]"
+          src={twitterIcon}
+          alt="twitterIcon"
+        />
+        <img
+          className="sm:w-[2%] md:w-[1.2%] sm:h-[2%]"
+          src={facebookIcon}
+          alt="twitterIcon"
+        />
+        <img
+          className="sm:w-[3%] md:w-[2%] sm:h-[3%]"
+          src={instaIcon}
+          alt="twitterIcon"
+        />
+        <img
+          className="sm:w-[3%] md:w-[2%] sm:h-[3%]"
+          src={githubIcon}
+          alt="twitterIcon"
+        />
+        <div className="hidden md:flex md:flex-row md:gap-5 font-inter text-sm text-[#525B52] md:w-[90%]">
+          <p>Privacy Policy</p>
+          <p>Terms and Conditions</p>
+          <p>Support</p>
         </div>
+        <img
+          className="w-[65vw] h-[8vh] sm:w-[75%] sm:h-[75%] md:w-[30%] md:h-[30%] absolute md:relative md:mt-0 mt-[8%] sm:mt-18"
+          src={copyWrite}
+          alt="copyWrite"
+        />
       </div>
     </>
   );
