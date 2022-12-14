@@ -1,9 +1,9 @@
-import Hero from "./components/Hero";
+import AllScreens from "./components/AllScreens";
 
 function App() {
   return (
     <>
-      <Hero />
+      <AllScreens />
     </>
   );
 }

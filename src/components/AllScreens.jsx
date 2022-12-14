@@ -24,7 +24,7 @@ import copyWrite from "../assets/footer/copyWrite.svg";
 import myImage from "../assets/my.jpg";
 import testimonial from "../assets/testi.svg";
 
-const Hero = () => {
+const AllScreens = () => {
   return (
     <>
       <div className="bg-[#F3FCF3] pb-[5%]">
@@ -36,25 +36,25 @@ const Hero = () => {
             <h1 className="font-semibold md:w-[90%]  text-4xl md:text-[50px] md:leading-[60px] font-jost text-[#121D17] text-center mt-[10vh] mx-4 md:mx-0 md:text-left">
               Finding suitable charging stations!
             </h1>
-            <p className="text-center font-normal text-sm md:text-lg md:leading-7 mt-[5vh] md:mt-5 mx-4 font-inter md:w-[60%] md:mx-0 md:text-left">
+            <p className="text-center font-normal text-sm md:text-xl mt-[5vh] md:mt-5 mx-4 font-inter md:w-[60%] md:mx-0 md:text-left">
               Our goal is to make it easy for new EV owners to charge with low
               electricity cost/unit.
             </p>
-            <div className="text-center  md:absolute md:mt-5 mt-5">
-              <button className="bg-[#21D57C] w-[144px] h-[41px] p-3 rounded-lg">
-                <p className="font-semibold text-xs text-[#FFFFFF] font-inter">
+            <div className="text-center  md:absolute md:mt-9 mt-5">
+              <button className="bg-[#21D57C] w-[144px] h-[41px] md:w-[193px] md:h-[55px] p-3 rounded-lg">
+                <p className="font-semibold text-xs md:text-base text-[#FFFFFF] font-inter">
                   Check our features
                 </p>
               </button>
             </div>
-            <div className="md:flex md:flex-row hidden md:mt-[20%] md:gap-1">
+            <div className="md:flex md:flex-row hidden md:mt-[20%] md:gap-1 md:w-[16px] md:h-[16px]">
               <img src={star} alt="rating" />
               <img src={star} alt="rating" />
               <img src={star} alt="rating" />
               <img src={star} alt="rating" />
               <img src={star} alt="rating" />
             </div>
-            <p className="hidden md:mt-2 md:inline-block md:w-[60%] font-inter font-normal leading-7 text-[#3F4643]">
+            <p className="hidden md:mt-2 md:inline-block md:w-[60%] font-inter font-normal leading-7 text-[#3F4643] md:text-base">
               “You made it so simple. The App is so much faster and easier to
               navigate through. It is also very helpful in saving the money.”
             </p>
@@ -218,7 +218,7 @@ const Hero = () => {
       {/* end of third page  */}
       {/* start of the fourth page  */}
       <div className="h-[598px] md:h-[60vh] bg-[#F5F5F5] text-center flex flex-col items-center relative overflow-hidden">
-        <div className="md:absolute md:left-0 md:top-[30%] md:w-[50%]">
+        <div className="md:absolute md:left-0 md:top-[20%] md:w-[50%]">
           <p className="font-semibold text-[22px]  text-[#000000] pt-10 mx-10 font-jost md:w-[416px] md:text-left md:leading-[42px] md:text-[42px]">
             Plan your trip using EVSeek.
           </p>
@@ -237,7 +237,7 @@ const Hero = () => {
       </div>
       {/* end of fourth page */}
       {/* start pricing & plan page  */}
-      <div className="h-[1339px] md:h-[100vh]  bg-[#FFFFFF] flex flex-col items-center">
+      <div className="h-[1339px] md:h-[883px] md:mx-10 bg-[#FFFFFF] flex flex-col items-center">
         <p className="font-semibold md:text-5xl md:mt-10 text-[#000000] font-jost mt-5 leading-8">
           Pricing & Plan
         </p>
@@ -246,51 +246,55 @@ const Hero = () => {
           use them. Choose your favourite plan.
         </p>
         <div className="h-full md:flex md:flex-row md:gap-4 md:justify-center md:mt-14">
-          <div className="h-[25%] md:h-[70%] w-[75vw] md:w-[30%] bg-[#F4F5F4] mt-10 rounded-lg flex flex-col  items-center relative">
-            <p className="font-inter font-bold text-xs mt-[8%]">BASIC</p>
-            <p className="text-[#18181B] font-Space font-bold leading-[30px] md:text-2xl mt-[2%] md:mt-8 text-lg ">
+          <div className="h-[25%]  w-[75vw] md:w-[350px] md:h-[483px] bg-[#F4F5F4] mt-10 rounded-lg flex flex-col  items-center relative">
+            <p className="font-inter font-bold text-xs mt-[8%] md:mt-[36px]">
+              BASIC
+            </p>
+            <p className="text-[#18181B] font-Space font-bold leading-[30px] md:text-2xl mt-[2%] md:mt-[27px] text-lg ">
               ${" "}
               <span className="text-xl leading-[61px] font-black text-[58px] inline-block -translate-x-1">
                 29
               </span>
             </p>
-            <p className="font-inter font-normal text-xs md:text-base leading-7 mx-[10%] text-center mt-[8%] md:mt-5 sm:mt-[6%]">
+            <p className="font-inter font-normal text-xs md:text-base leading-7 mx-[10%] text-center mt-[8%] md:mt-[50px] sm:mt-[6%]">
               Basic Main Features 250+ EV Charging Stations
             </p>
-            <button className="text-[#12141D] font-bold text-xs md:text-base font-jost leading-5 bg-[#FFFFFF] w-[60vw] md:w-[80%] h-[5vh] rounded absolute bottom-4">
+            <button className="text-[#12141D] font-bold text-xs md:text-base font-jost leading-5 bg-[#FFFFFF] w-[60vw] md:w-[280px] h-[60px] rounded absolute bottom-4 md:bottom-16">
               Start 14 Days Free Trial
             </button>
           </div>
-          <div className="h-[25%] w-[75vw] md:h-[77.5%] md:shadow md:w-[30%] bg-[#0F2A0F] mt-[8%] md:mt-0 rounded-lg flex flex-col items-center relative">
-            <p className="font-inter font-bold text-xs mt-[8%] text-[#FFFFFF]">
+          <div className="h-[25%] w-[75vw] md:w-[350px] md:h-[523px] md:shadow bg-[#0F2A0F] mt-[8%] md:mt-0 rounded-lg flex flex-col items-center relative">
+            <p className="font-inter font-bold text-xs mt-[8%] text-[#FFFFFF] md:mt-[36px]">
               STANDARD
             </p>
-            <p className="text-[#FFFFFF] font-Space font-bold leading-[30px] text-lg  md:text-2xl md:mt-8 mt-[2%]">
+            <p className="text-[#FFFFFF] font-Space font-bold leading-[30px] text-lg  md:text-2xl  mt-[2%] md:mt-[27px]">
               ${" "}
               <span className="text-xl leading-[61px] font-black text-[43px] md:text-[58px] inline-block -translate-x-1">
                 29
               </span>
             </p>
-            <p className="font-inter font-normal text-xs md:text-base leading-7 mx-[10%] text-center mt-[6%] text-[#FFFFFF]">
+            <p className="font-inter font-normal text-xs md:text-base leading-7 mx-[10%] text-center mt-[6%] text-[#FFFFFF] md:mt-[50px]">
               Standard Main Features 500+ EV Charging Stations Late Customer
               Support No Ads
             </p>
-            <button className=" font-bold text-xs md:text-base font-jost leading-5 bg-[#21D57C] text-[#FFFFFF] w-[60vw] h-[5vh] rounded absolute bottom-4 md:w-[80%]">
+            <button className=" font-bold text-xs md:text-base font-jost leading-5 bg-[#21D57C] text-[#FFFFFF] w-[60vw] rounded absolute bottom-4 md:w-[280px] h-[60px] md:bottom-16">
               Start 14 Days Free Trial
             </button>
           </div>
-          <div className="h-[25%] md:h-[70%] w-[75vw] md:w-[30%] bg-[#F4F5F4] mt-10 rounded-lg flex flex-col items-center relative">
-            <p className="font-inter font-bold text-xs mt-[8%]">PREMIUM</p>
-            <p className="text-[#18181B] font-Space font-bold leading-[30px] text-lg md:text-2xl mt-[2%] md:mt-8">
+          <div className="h-[25%]  w-[75vw] md:w-[350px] md:h-[483px] bg-[#F4F5F4] mt-10 rounded-lg flex flex-col items-center relative">
+            <p className="font-inter font-bold text-xs mt-[8%] md:mt-[36px]">
+              PREMIUM
+            </p>
+            <p className="text-[#18181B] font-Space font-bold leading-[30px] text-lg md:text-2xl mt-[2%]  md:mt-[27px]">
               ${" "}
               <span className="text-xl leading-[61px] font-black text-[43px] md:text-[58px] inline-block -translate-x-1">
                 99
               </span>
             </p>
-            <p className="font-inter font-normal text-xs md:text-base leading-7 mx-[10%] text-center mt-[8%]">
+            <p className="font-inter font-normal text-xs md:text-base leading-7 mx-[10%] text-center mt-[8%] md:mt-[50px]">
               All Modules 24/7 Live Support
             </p>
-            <button className="text-[#12141D] font-bold text-xs font-jost leading-5 bg-[#FFFFFF] w-[60vw] h-[5vh] rounded absolute bottom-4 md:w-[80%] md:text-base">
+            <button className="text-[#12141D] font-bold text-xs font-jost leading-5 bg-[#FFFFFF] w-[60vw] rounded absolute bottom-4 md:w-[280px] h-[60px] md:text-base md:bottom-16">
               Start 14 Days Free Trial
             </button>
           </div>
@@ -306,42 +310,42 @@ const Hero = () => {
         {/* carousel start  */}
         {/* carousel end  */}
         <div className="hidden md:flex md:flex-row md:gap-10 md:w-[80%]">
-          <div className="bg-[#FFFFFF] md:w-[31vw] md:h-[105%] rounded-[10px] flex flex-col items-center">
-            <img className="mt-3" src={testimonial} alt="img1" />
-            <p className="font-normal font-inter md:text-base text-center text-[#121D12] md:mx-5 md:mt-3">
+          <div className="bg-[#FFFFFF] md:w-[372px] md:h-[443px] rounded-[10px] flex flex-col items-center">
+            <img className="mt-[47px]" src={testimonial} alt="img1" />
+            <p className="font-normal font-inter md:text-base text-center text-[#121D12] md:mx-5 md:mt-[16px]">
               “I just simply love the app that make my life easier! I have
               everything that I need while driving my EV, that allows save cost
               as well as plan my trip according the stations available.”
             </p>
-            <p className="font-semibold font-inter md:text-base text-center text-[#121D12] md:mx-5 md:mt-3">
+            <p className="font-semibold font-inter md:text-base text-center text-[#121D12] md:mx-5 md:mt-[31px]">
               Jenny Wilson
             </p>
             <p className="font-normal font-inter md:text-base text-center text-[#525B52] md:mx-5 md:mt-3">
               Project Manager at Microsoft
             </p>
           </div>
-          <div className="bg-[#FFFFFF] md:w-[31vw] md:h-[105%] rounded-[10px] flex flex-col items-center shadow-[0px_34px_104px_rgba(18,22,28,0.1)]">
-            <img className="mt-3" src={testimonial} alt="img1" />
-            <p className="font-normal font-inter md:text-base text-center text-[#121D12] md:mx-5 md:mt-3">
+          <div className="bg-[#FFFFFF] md:w-[372px] md:h-[443px] rounded-[10px] flex flex-col items-center shadow-[0px_34px_104px_rgba(18,22,28,0.1)]">
+            <img className="mt-[47px]" src={testimonial} alt="img1" />
+            <p className="font-normal font-inter md:text-base text-center text-[#121D12] md:mx-5 md:mt-[16px]">
               “I just simply love the app that make my life easier! I have
               everything that I need while driving my EV, that allows save cost
               as well as plan my trip according the stations available.”
             </p>
-            <p className="font-semibold font-inter md:text-base text-center text-[#121D12] md:mx-5 md:mt-3">
+            <p className="font-semibold font-inter md:text-base text-center text-[#121D12] md:mx-5 md:mt-[31px]">
               Jenny Wilson
             </p>
             <p className="font-normal font-inter md:text-base text-center text-[#525B52] md:mx-5 md:mt-3">
               Project Manager at Microsoft
             </p>
           </div>
-          <div className="bg-[#FFFFFF] md:w-[31vw] md:h-[105%] rounded-[10px] flex flex-col items-center">
-            <img className="mt-3" src={testimonial} alt="img1" />
-            <p className="font-normal font-inter md:text-base text-center text-[#121D12] md:mx-5 md:mt-3">
+          <div className="bg-[#FFFFFF] md:w-[372px] md:h-[443px] rounded-[10px] flex flex-col items-center">
+            <img className="mt-[47px]" src={testimonial} alt="img1" />
+            <p className="font-normal font-inter md:text-base text-center text-[#121D12] md:mx-5 md:mt-[16px]">
               “I just simply love the app that make my life easier! I have
               everything that I need while driving my EV, that allows save cost
               as well as plan my trip according the stations available.”
             </p>
-            <p className="font-semibold font-inter md:text-base text-center text-[#121D12] md:mx-5 md:mt-3">
+            <p className="font-semibold font-inter md:text-base text-center text-[#121D12] md:mx-5 md:mt-[31px]">
               Jenny Wilson
             </p>
             <p className="font-normal font-inter md:text-base text-center text-[#525B52] md:mx-5 md:mt-3">
@@ -526,4 +530,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default AllScreens;
