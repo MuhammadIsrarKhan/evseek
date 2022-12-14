@@ -1,11 +1,7 @@
-import AllScreens from "./components/AllScreens";
+import Evseek from "./components/Evseek";
 
 function App() {
-  return (
-    <>
-      <AllScreens />
-    </>
-  );
+  return <Evseek />;
 }
 
 export default App;

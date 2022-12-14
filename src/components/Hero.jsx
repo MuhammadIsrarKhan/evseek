@@ -1,8 +1,8 @@
-import myImage from "../assets/my.jpg";
 import Navbar from "./Navbar";
 import iphone from "../assets/hero/iphone.svg";
 import star from "../assets/hero/star.svg";
 import smallImg from "../assets/hero/smallImg.png";
+import Avatar from "../assets/hero/avatar.svg";
 const Hero = () => {
   return (
     <>
@@ -38,12 +38,12 @@ const Hero = () => {
               navigate through. It is also very helpful in saving the money.”
             </p>
             <div className="hidden md:mt-3 md:flex md:flex-row text-base font-medium leading-5 ">
-              <img src={myImage} alt="avatar" className="rounded-full w-10 " />
+              <img src={Avatar} alt="avatar" className="rounded-full w-10 " />
               <div className=" ml-3 flex flex-col">
                 <p className="font-semibold font-jost tracking-wider text-base text-[#181B1A]">
                   Israr Khan
                 </p>
-                <p className="text-[#525B57] font-jost font-normal text-[14px]">
+                <p className="text-[#525B57] -translate-y-1 font-jost font-normal text-[14px]">
                   From Gullimam Tank
                 </p>
               </div>

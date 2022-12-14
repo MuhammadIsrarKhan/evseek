@@ -9,23 +9,20 @@ const Navbar = () => {
         src={mainLogo}
         alt="mainLogo"
       />
-      <ul className="hidden md:flex md:flex-row md:absolute md:left-[30%] md:top-[90%] md:gap-8">
-        <button>
-          {" "}
-          <li className="font-inter font-medium text-base text-[#161616]">
-            Demos
-          </li>
-        </button>
-        <li className="font-inter font-medium text-base text-[#161616]">
+      <ul className="hidden md:flex md:flex-row z-50 md:absolute md:left-[30%] md:top-[90%] md:gap-8">
+        <li className="font-inter md:cursor-pointer  font-medium text-base text-[#161616]">
+          Demos
+        </li>
+        <li className="font-inter md:cursor-pointer font-medium text-base text-[#161616]">
           About
         </li>
-        <li className="font-inter font-medium text-base text-[#161616]">
+        <li className="font-inter md:cursor-pointer font-medium text-base text-[#161616]">
           Blog
         </li>
-        <li className="font-inter font-medium text-base text-[#161616]">
+        <li className="font-inter md:cursor-pointer font-medium text-base text-[#161616]">
           Pages
         </li>
-        <li className="font-inter font-medium text-base text-[#161616]">
+        <li className="font-inter md:cursor-pointer font-medium text-base text-[#161616]">
           Contact
         </li>
       </ul>

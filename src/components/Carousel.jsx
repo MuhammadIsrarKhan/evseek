@@ -1,17 +1,9 @@
 import "./Carousel.css";
-import testimonial from "../assets/testi.svg";
-// Import Swiper React components
+import testimonial from "../assets/Testimonial/testi.svg";
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-
-// import "./styles.css";
-
-// import required modules
 import { Autoplay, Pagination } from "swiper";
-
 export default function App() {
   return (
     <>
@@ -31,9 +23,10 @@ export default function App() {
           modules={[Autoplay, Pagination]}
           className="mySwiper"
         >
+          {/* shadow-[0px_34px_104px_rgba(18,22,28,0.1)] */}
           <SwiperSlide>
             {" "}
-            <div className="bg-[#FFFFFF] w-[227px] h-[312px] rounded-[10px] flex flex-col items-center shadow-[0px_34px_104px_rgba(18,22,28,0.1)] mt-44 pt-5">
+            <div className="bg-[#FFFFFF] w-[227px] h-[312px] rounded-[10px] flex flex-col items-center  mt-44 pt-5">
               <img
                 style={{ width: "66px", height: "66px" }}
                 src={testimonial}
@@ -53,7 +46,7 @@ export default function App() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="bg-[#FFFFFF] w-[227px] h-[312px] rounded-[10px] flex flex-col items-center shadow-[0px_34px_104px_rgba(18,22,28,0.1)] mt-44 pt-5">
+            <div className="bg-[#FFFFFF] w-[227px] h-[312px] rounded-[10px] flex flex-col items-center mt-44 pt-5">
               <img
                 style={{ width: "66px", height: "66px" }}
                 src={testimonial}
@@ -73,7 +66,7 @@ export default function App() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="bg-[#FFFFFF] w-[227px] h-[312px] rounded-[10px] flex flex-col items-center shadow-[0px_34px_104px_rgba(18,22,28,0.1)] mt-44 pt-5">
+            <div className="bg-[#FFFFFF] w-[227px] h-[312px] rounded-[10px] flex flex-col items-center mt-44 pt-5">
               <img
                 style={{ width: "66px", height: "66px" }}
                 src={testimonial}
