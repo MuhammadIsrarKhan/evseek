@@ -278,10 +278,10 @@ const AllScreens = () => {
             </p>
           </div>
         </div>
-        <p className="font-semibold md:text-[36px] md:leading-[46px] text-center md:w-[578px] md:mt-16 text-[#181B18]">
+        <p className="font-semibold text-xl w-[280px] h-[60px] font-jost md:text-[36px] md:leading-[46px] mt-0 text-center md:w-[578px] md:mt-16 text-[#181B18]">
           Get started with EVSeek. Find nearest charging stations.
         </p>
-        <button className="bg-[#21D57C] rounded-lg md:w-[196px] md:h-[55px] md:mt-10">
+        <button className="bg-[#21D57C] w-[147px] h-[41px] rounded-lg md:w-[196px] md:h-[55px] md:mt-10">
           <p className="font-semibold text-xs md:text-base text-[#FFFFFF] font-inter">
             Download Our App
           </p>

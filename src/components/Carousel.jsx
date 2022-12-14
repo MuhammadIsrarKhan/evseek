@@ -17,7 +17,7 @@ export default function App() {
     <>
       <div
         style={{ backgroundColor: "#F6FAF6" }}
-        className="md:hidden w-[90%] h-[90vh]"
+        className="md:hidden w-[90%] h-[65vh]"
       >
         <Swiper
           spaceBetween={30}

@@ -15,7 +15,7 @@ const Hero = () => {
             <h1 className="font-semibold md:w-[90%]  text-4xl md:text-[50px] md:leading-[60px] font-jost text-[#121D17] text-center mt-[10vh] mx-4 md:mx-0 md:text-left">
               Finding suitable charging stations!
             </h1>
-            <p className="text-center font-normal text-sm md:text-xl mt-[5vh] md:mt-5 mx-4 font-inter md:w-[60%] md:mx-0 md:text-left">
+            <p className="text-center font-normal text-sm md:text-xl mt-[5vh] md:mt-5 mx-4 font-inter md:w-[60%] md:mx-0 md:text-left text-[#121D17]">
               Our goal is to make it easy for new EV owners to charge with low
               electricity cost/unit.
             </p>
