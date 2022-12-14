@@ -22,6 +22,7 @@ import instaIcon from "../assets/footer/insta.svg";
 import githubIcon from "../assets/footer/github.svg";
 import copyWrite from "../assets/footer/copyWrite.svg";
 import myImage from "../assets/my.jpg";
+import testimonial from "../assets/testi.svg";
 
 const Hero = () => {
   return (
@@ -69,30 +70,47 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col mt-10 content-center justify-center items-center relative md:right-[1%] md:w-[100%] md:h-[50%]">
+          <div className="flex flex-col mt-10 content-center justify-center items-center relative md:right-[5%] md:w-[618px] md:h-[710px]">
             <img
-              className="w-[345px] h-[391px] md:w-[100%] md:h-[50%]"
+              className="w-[345px] h-[391px] md:w-[100%] md:h-[100%]"
               src={iphone}
               alt="iphoneimage absolute"
             />
             <img
-              className="w-[175.07px] h-[130.07px] md:w-[35%] md:h-[25%]  absolute -translate-x-24 translate-y-7"
+              className="w-[175.07px] h-[130.07px] md:w-[285px] md:h-[200px]  absolute -translate-x-24 translate-y-7"
               src={smallImg}
               alt="iphoneimage absolute"
             />
           </div>
         </div>
       </div>
-      {/* end of first page  */}
+      {/* end of hero section  */}
+      {/* starting of second page  */}
       <div className="bg-[#FFFFFF] h-auto mb-5">
         <p className="font-bold text-base md:text-xl text-[#181B18] text-center mt-[10vh] font-inter mx-20">
           Trusted by nearly all top EV car companies
         </p>
-        <div className="flex flex-row justify-between touch-pan-x overflow-x-auto gap-5 mx-12 mt-10">
-          <img className="md:w-[20%] md:h-[20%]" src={Tesla} alt="Tesla icon" />
-          <img className="md:w-[25%] md:h-[25%]" src={Bramo} alt="Tesla icon" />
-          <img className="md:w-[12%] md:h-[12%]" src={Nio} alt="Tesla icon" />
-          <img className="md:w-[20%] md:h-[20%]" src={Drako} alt="Tesla icon" />
+        <div className="flex flex-row justify-between lg:justify-center lg:gap-24 touch-pan-x overflow-x-auto gap-5 items-center mx-12 mt-10">
+          <img
+            className="md:w-[20%] md:h-[20%] lg:w-[13%] lg:h-[13%]"
+            src={Tesla}
+            alt="Tesla icon"
+          />
+          <img
+            className="md:w-[25%] md:h-[25%] lg:w-[18%] lg:h-[18%]"
+            src={Bramo}
+            alt="Tesla icon"
+          />
+          <img
+            className="md:w-[12%] md:h-[12%] lg:w-[8%] lg:h-[8%]"
+            src={Nio}
+            alt="Tesla icon"
+          />
+          <img
+            className="md:w-[20%] md:h-[20%] lg:w-[13%] lg:h-[13%]"
+            src={Drako}
+            alt="Tesla icon"
+          />
         </div>
         <div className="flex justify-center align-middle items-center mt-16">
           <hr className="w-[50vw] text-center" />
@@ -178,6 +196,7 @@ const Hero = () => {
         </div>
       </div>
       {/* end of second page  */}
+      {/* start of the third page  */}
       <div className="h-[598px] md:h-[60vh] bg-[#0F2A0F] text-center flex flex-col items-center relative overflow-hidden">
         <div className="md:absolute md:right-0 md:top-[20%] md:w-[50%]">
           <p className="font-semibold text-[22px] text-[#FFFFFF] md:text-[42px] md:w-[447px] md:text-left md:leading-[48px] pt-10 mx-10 font-jost">
@@ -197,6 +216,7 @@ const Hero = () => {
         </div>
       </div>
       {/* end of third page  */}
+      {/* start of the fourth page  */}
       <div className="h-[598px] md:h-[60vh] bg-[#F5F5F5] text-center flex flex-col items-center relative overflow-hidden">
         <div className="md:absolute md:left-0 md:top-[30%] md:w-[50%]">
           <p className="font-semibold text-[22px]  text-[#000000] pt-10 mx-10 font-jost md:w-[416px] md:text-left md:leading-[42px] md:text-[42px]">
@@ -225,8 +245,8 @@ const Hero = () => {
           Both a free trial and a free set of features for anyone who wants to
           use them. Choose your favourite plan.
         </p>
-        <div className="h-[1339px] md:flex md:flex-row md:gap-4 md:justify-center md:mt-14">
-          <div className="h-[22%] md:h-[70%] w-[75vw] md:w-[30%] bg-[#F4F5F4] mt-10 rounded-lg flex flex-col  items-center relative">
+        <div className="h-full md:flex md:flex-row md:gap-4 md:justify-center md:mt-14">
+          <div className="h-[25%] md:h-[70%] w-[75vw] md:w-[30%] bg-[#F4F5F4] mt-10 rounded-lg flex flex-col  items-center relative">
             <p className="font-inter font-bold text-xs mt-[8%]">BASIC</p>
             <p className="text-[#18181B] font-Space font-bold leading-[30px] md:text-2xl mt-[2%] md:mt-8 text-lg ">
               ${" "}
@@ -241,7 +261,7 @@ const Hero = () => {
               Start 14 Days Free Trial
             </button>
           </div>
-          <div className="h-[22%] w-[75vw] md:h-[77.5%] md:shadow md:w-[30%] bg-[#0F2A0F] mt-[8%] md:mt-0 rounded-lg flex flex-col items-center relative">
+          <div className="h-[25%] w-[75vw] md:h-[77.5%] md:shadow md:w-[30%] bg-[#0F2A0F] mt-[8%] md:mt-0 rounded-lg flex flex-col items-center relative">
             <p className="font-inter font-bold text-xs mt-[8%] text-[#FFFFFF]">
               STANDARD
             </p>
@@ -259,7 +279,7 @@ const Hero = () => {
               Start 14 Days Free Trial
             </button>
           </div>
-          <div className="h-[22%] md:h-[70%] w-[75vw] md:w-[30%] bg-[#F4F5F4] mt-10 rounded-lg flex flex-col items-center relative">
+          <div className="h-[25%] md:h-[70%] w-[75vw] md:w-[30%] bg-[#F4F5F4] mt-10 rounded-lg flex flex-col items-center relative">
             <p className="font-inter font-bold text-xs mt-[8%]">PREMIUM</p>
             <p className="text-[#18181B] font-Space font-bold leading-[30px] text-lg md:text-2xl mt-[2%] md:mt-8">
               ${" "}
@@ -277,6 +297,68 @@ const Hero = () => {
         </div>
       </div>
       {/* end pricing & plan page  */}
+      {/* testimonial page start  */}
+      <div className="bg-[#F6FAF6] h-[800px] md:h-[1084px] flex flex-col items-center">
+        <p className="md:text-[42px] text-[22px] leading-[31px] md:leading-[48px] font-jost font-semibold text-[#181B18] p-16 text-center md:w-[636px] w-[380px]">
+          Trusted by <span className="text-[#21D57C]">30k+</span> Customers &
+          Companies
+        </p>
+        {/* carousel start  */}
+        {/* carousel end  */}
+        <div className="hidden md:flex md:flex-row md:gap-10 md:w-[80%]">
+          <div className="bg-[#FFFFFF] md:w-[31vw] md:h-[105%] rounded-[10px] flex flex-col items-center">
+            <img className="mt-3" src={testimonial} alt="img1" />
+            <p className="font-normal font-inter md:text-base text-center text-[#121D12] md:mx-5 md:mt-3">
+              “I just simply love the app that make my life easier! I have
+              everything that I need while driving my EV, that allows save cost
+              as well as plan my trip according the stations available.”
+            </p>
+            <p className="font-semibold font-inter md:text-base text-center text-[#121D12] md:mx-5 md:mt-3">
+              Jenny Wilson
+            </p>
+            <p className="font-normal font-inter md:text-base text-center text-[#525B52] md:mx-5 md:mt-3">
+              Project Manager at Microsoft
+            </p>
+          </div>
+          <div className="bg-[#FFFFFF] md:w-[31vw] md:h-[105%] rounded-[10px] flex flex-col items-center shadow-[0px_34px_104px_rgba(18,22,28,0.1)]">
+            <img className="mt-3" src={testimonial} alt="img1" />
+            <p className="font-normal font-inter md:text-base text-center text-[#121D12] md:mx-5 md:mt-3">
+              “I just simply love the app that make my life easier! I have
+              everything that I need while driving my EV, that allows save cost
+              as well as plan my trip according the stations available.”
+            </p>
+            <p className="font-semibold font-inter md:text-base text-center text-[#121D12] md:mx-5 md:mt-3">
+              Jenny Wilson
+            </p>
+            <p className="font-normal font-inter md:text-base text-center text-[#525B52] md:mx-5 md:mt-3">
+              Project Manager at Microsoft
+            </p>
+          </div>
+          <div className="bg-[#FFFFFF] md:w-[31vw] md:h-[105%] rounded-[10px] flex flex-col items-center">
+            <img className="mt-3" src={testimonial} alt="img1" />
+            <p className="font-normal font-inter md:text-base text-center text-[#121D12] md:mx-5 md:mt-3">
+              “I just simply love the app that make my life easier! I have
+              everything that I need while driving my EV, that allows save cost
+              as well as plan my trip according the stations available.”
+            </p>
+            <p className="font-semibold font-inter md:text-base text-center text-[#121D12] md:mx-5 md:mt-3">
+              Jenny Wilson
+            </p>
+            <p className="font-normal font-inter md:text-base text-center text-[#525B52] md:mx-5 md:mt-3">
+              Project Manager at Microsoft
+            </p>
+          </div>
+        </div>
+        <p className="font-semibold md:text-[36px] md:leading-[46px] text-center md:w-[578px] md:mt-16 text-[#181B18]">
+          Get started with EVSeek. Find nearest charging stations.
+        </p>
+        <button className="bg-[#21D57C] rounded-lg md:w-[196px] md:h-[55px] md:mt-10">
+          <p className="font-semibold text-xs md:text-base text-[#FFFFFF] font-inter">
+            Download Our App
+          </p>
+        </button>
+      </div>
+      {/* testimonial page end  */}
       {/* start of 6th page  */}
       <div className="h-[429px] bg-[#7FC37E] flex flex-col items-center">
         <p className="text-[#FAFAFA] font-jost font-semibold text-[22px] md:text-[42px] tracking-wider mt-10">
