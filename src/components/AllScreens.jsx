@@ -1,7 +1,3 @@
-import Navbar from "./Navbar";
-import iphone from "../assets/hero/iphone.svg";
-import star from "../assets/hero/star.svg";
-import smallImg from "../assets/hero/smallImg.png";
 import Tesla from "../assets/advertice/tesla.svg";
 import Bramo from "../assets/advertice/brammo.svg";
 import Nio from "../assets/advertice/nio.svg";
@@ -21,102 +17,30 @@ import facebookIcon from "../assets/footer/facebook.svg";
 import instaIcon from "../assets/footer/insta.svg";
 import githubIcon from "../assets/footer/github.svg";
 import copyWrite from "../assets/footer/copyWrite.svg";
-import myImage from "../assets/my.jpg";
 import testimonial from "../assets/testi.svg";
+import Hero from "./Hero";
+import Carousel from "./Carousel";
 
 const AllScreens = () => {
   return (
     <>
-      <div className="bg-[#F3FCF3] pb-[5%]">
-        <Navbar />
-        {/* hero section  */}
-        <div className="md:flex md:flex-row relative md:ml-[10%]">
-          <div className="md:mt-[5%]">
-            {" "}
-            <h1 className="font-semibold md:w-[90%]  text-4xl md:text-[50px] md:leading-[60px] font-jost text-[#121D17] text-center mt-[10vh] mx-4 md:mx-0 md:text-left">
-              Finding suitable charging stations!
-            </h1>
-            <p className="text-center font-normal text-sm md:text-xl mt-[5vh] md:mt-5 mx-4 font-inter md:w-[60%] md:mx-0 md:text-left">
-              Our goal is to make it easy for new EV owners to charge with low
-              electricity cost/unit.
-            </p>
-            <div className="text-center  md:absolute md:mt-9 mt-5">
-              <button className="bg-[#21D57C] w-[144px] h-[41px] md:w-[193px] md:h-[55px] p-3 rounded-lg">
-                <p className="font-semibold text-xs md:text-base text-[#FFFFFF] font-inter">
-                  Check our features
-                </p>
-              </button>
-            </div>
-            <div className="md:flex md:flex-row hidden md:mt-[20%] md:gap-1 md:w-[16px] md:h-[16px]">
-              <img src={star} alt="rating" />
-              <img src={star} alt="rating" />
-              <img src={star} alt="rating" />
-              <img src={star} alt="rating" />
-              <img src={star} alt="rating" />
-            </div>
-            <p className="hidden md:mt-2 md:inline-block md:w-[60%] font-inter font-normal leading-7 text-[#3F4643] md:text-base">
-              “You made it so simple. The App is so much faster and easier to
-              navigate through. It is also very helpful in saving the money.”
-            </p>
-            <div className="hidden md:mt-3 md:flex md:flex-row text-base font-medium leading-5 ">
-              <img src={myImage} alt="avatar" className="rounded-full w-10 " />
-              <div className=" ml-3 flex flex-col">
-                <p className="font-semibold font-jost tracking-wider text-base text-[#181B1A]">
-                  Israr Khan
-                </p>
-                <p className="text-[#525B57] font-jost font-normal text-[14px]">
-                  From Gullimam Tank
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="flex flex-col mt-10 content-center justify-center items-center relative md:right-[5%] md:w-[618px] md:h-[710px]">
-            <img
-              className="w-[345px] h-[391px] md:w-[100%] md:h-[100%]"
-              src={iphone}
-              alt="iphoneimage absolute"
-            />
-            <img
-              className="w-[175.07px] h-[130.07px] md:w-[285px] md:h-[200px]  absolute -translate-x-24 translate-y-7"
-              src={smallImg}
-              alt="iphoneimage absolute"
-            />
-          </div>
-        </div>
-      </div>
-      {/* end of hero section  */}
+      <Hero />
       {/* starting of second page  */}
-      <div className="bg-[#FFFFFF] h-auto mb-5">
-        <p className="font-bold text-base md:text-xl text-[#181B18] text-center mt-[10vh] font-inter mx-20">
+      <div className="bg-[#FFFFFF] h-auto ">
+        <p className="font-bold text-base md:text-xl text-[#181B18] text-center mt-[10vh] lg:mt-0 lg:pt-[10vh] font-inter mx-20">
           Trusted by nearly all top EV car companies
         </p>
-        <div className="flex flex-row justify-between lg:justify-center lg:gap-24 touch-pan-x overflow-x-auto gap-5 items-center mx-12 mt-10">
-          <img
-            className="md:w-[20%] md:h-[20%] lg:w-[13%] lg:h-[13%]"
-            src={Tesla}
-            alt="Tesla icon"
-          />
-          <img
-            className="md:w-[25%] md:h-[25%] lg:w-[18%] lg:h-[18%]"
-            src={Bramo}
-            alt="Tesla icon"
-          />
-          <img
-            className="md:w-[12%] md:h-[12%] lg:w-[8%] lg:h-[8%]"
-            src={Nio}
-            alt="Tesla icon"
-          />
-          <img
-            className="md:w-[20%] md:h-[20%] lg:w-[13%] lg:h-[13%]"
-            src={Drako}
-            alt="Tesla icon"
-          />
+        <div className="flex flex-row justify-between lg:justify-center lg:gap-16 touch-pan-x overflow-x-auto gap-5 items-center mx-12 mt-10">
+          <img src={Tesla} alt="Tesla icon" />
+          <img src={Bramo} alt="Tesla icon" />
+          <img src={Nio} alt="Tesla icon" />
+          <img src={Drako} alt="Tesla icon" />
         </div>
         <div className="flex justify-center align-middle items-center mt-16">
           <hr className="w-[50vw] text-center" />
         </div>
         <div className="flex flex-col">
-          <p className="font-semibold text-2xl md:text-4xl text-center mx-[10vw] mt-10">
+          <p className="font-semibold text-2xl md:text-4xl lg:text-[42px] lg:leading-[46px] text-[#000000] text-center mx-[10vw] mt-10">
             350 thousands Customers are using EVSeek
           </p>
           <div className="md:flex md:flex-row md:p-[10%] md:pt-0">
@@ -197,7 +121,7 @@ const AllScreens = () => {
       </div>
       {/* end of second page  */}
       {/* start of the third page  */}
-      <div className="h-[598px] md:h-[60vh] bg-[#0F2A0F] text-center flex flex-col items-center relative overflow-hidden">
+      <div className="h-[598px] md:h-[60vh] lg:h-[600px] bg-[#0F2A0F] text-center flex flex-col items-center relative overflow-hidden">
         <div className="md:absolute md:right-0 md:top-[20%] md:w-[50%]">
           <p className="font-semibold text-[22px] text-[#FFFFFF] md:text-[42px] md:w-[447px] md:text-left md:leading-[48px] pt-10 mx-10 font-jost">
             EVSeek is available all over Finland.
@@ -208,17 +132,17 @@ const AllScreens = () => {
             officia consequat duis.
           </p>
         </div>
-        <div className="absolute -bottom-48 md:left-2">
+        <div className="absolute -bottom-48 lg:-bottom-56 md:left-2 lg:left-20">
           <div className="w-[477px] h-[477px] bg-[#7FC37E] rounded-full"></div>
         </div>
-        <div className="absolute -bottom-0 md:left-20">
+        <div className="absolute -bottom-0 md:left-20 lg:left-40">
           <img src={IphoneThirdPage} alt="IphoneThirdage" />
         </div>
       </div>
       {/* end of third page  */}
       {/* start of the fourth page  */}
-      <div className="h-[598px] md:h-[60vh] bg-[#F5F5F5] text-center flex flex-col items-center relative overflow-hidden">
-        <div className="md:absolute md:left-0 md:top-[20%] md:w-[50%]">
+      <div className="h-[598px] md:h-[60vh] bg-[#F5F5F5] lg:h-[600px] text-center flex flex-col items-center relative overflow-hidden">
+        <div className="md:absolute md:left-0 md:top-[30%] md:w-[50%]">
           <p className="font-semibold text-[22px]  text-[#000000] pt-10 mx-10 font-jost md:w-[416px] md:text-left md:leading-[42px] md:text-[42px]">
             Plan your trip using EVSeek.
           </p>
@@ -228,25 +152,25 @@ const AllScreens = () => {
             dolor do amet sint. Velit officia consequat duis enim velit mollit.
           </p>
         </div>
-        <div className="absolute -bottom-48 md:right-0">
+        <div className="absolute -bottom-48 md:right-12">
           <div className="w-[477px] h-[477px] bg-[#FFC947] rounded-full"></div>
         </div>
-        <div className="absolute -bottom-0 md:right-16">
+        <div className="absolute -bottom-0 md:right-32">
           <img src={IphoneFourthPage} alt="IphoneThirdage" />
         </div>
       </div>
       {/* end of fourth page */}
       {/* start pricing & plan page  */}
-      <div className="h-[1339px] md:h-[883px] md:mx-10 bg-[#FFFFFF] flex flex-col items-center">
+      <div className="h-[1339px] md:h-[883px]  px-10 bg-[#FFFFFF] flex flex-col items-center">
         <p className="font-semibold md:text-5xl md:mt-10 text-[#000000] font-jost mt-5 leading-8">
           Pricing & Plan
         </p>
-        <p className="font-normal text-xs md:text-lg text-[#52525B] mt-5 mx-10 md:mx-28 font-inter text-center">
+        <p className="font-normal text-xs md:text-lg text-[#52525B] mt-5 lg:mx-10 md:mx-28 font-inter text-center">
           Both a free trial and a free set of features for anyone who wants to
           use them. Choose your favourite plan.
         </p>
         <div className="h-full md:flex md:flex-row md:gap-4 md:justify-center md:mt-14">
-          <div className="h-[25%]  w-[75vw] md:w-[350px] md:h-[483px] bg-[#F4F5F4] mt-10 rounded-lg flex flex-col  items-center relative">
+          <div className="h-[25%]  w-[75vw] md:w-[33%] md:h-[60vh]  lg:w-[350px] lg:h-[483px] bg-[#F4F5F4] mt-10 rounded-lg flex flex-col  items-center relative">
             <p className="font-inter font-bold text-xs mt-[8%] md:mt-[36px]">
               BASIC
             </p>
@@ -259,11 +183,11 @@ const AllScreens = () => {
             <p className="font-inter font-normal text-xs md:text-base leading-7 mx-[10%] text-center mt-[8%] md:mt-[50px] sm:mt-[6%]">
               Basic Main Features 250+ EV Charging Stations
             </p>
-            <button className="text-[#12141D] font-bold text-xs md:text-base font-jost leading-5 bg-[#FFFFFF] w-[60vw] md:w-[280px] h-[60px] rounded absolute bottom-4 md:bottom-16">
+            <button className="text-[#12141D] font-bold text-xs md:text-base font-jost leading-5 bg-[#FFFFFF] w-[60vw] md:w-[200px] lg:w-[280px] h-[60px] rounded absolute bottom-4 md:bottom-16">
               Start 14 Days Free Trial
             </button>
           </div>
-          <div className="h-[25%] w-[75vw] md:w-[350px] md:h-[523px] md:shadow bg-[#0F2A0F] mt-[8%] md:mt-0 rounded-lg flex flex-col items-center relative">
+          <div className="h-[25%] w-[75vw]  md:w-[33%] md:h-[65vh]  lg:w-[350px] lg:h-[520px] md:shadow bg-[#0F2A0F] mt-[8%] md:mt-0 rounded-lg flex flex-col items-center relative">
             <p className="font-inter font-bold text-xs mt-[8%] text-[#FFFFFF] md:mt-[36px]">
               STANDARD
             </p>
@@ -277,11 +201,11 @@ const AllScreens = () => {
               Standard Main Features 500+ EV Charging Stations Late Customer
               Support No Ads
             </p>
-            <button className=" font-bold text-xs md:text-base font-jost leading-5 bg-[#21D57C] text-[#FFFFFF] w-[60vw] rounded absolute bottom-4 md:w-[280px] h-[60px] md:bottom-16">
+            <button className=" font-bold text-xs md:text-base font-jost leading-5 bg-[#21D57C] text-[#FFFFFF] w-[60vw] rounded absolute bottom-4 lg:w-[280px] h-[60px] md:bottom-16 md:w-[200px]">
               Start 14 Days Free Trial
             </button>
           </div>
-          <div className="h-[25%]  w-[75vw] md:w-[350px] md:h-[483px] bg-[#F4F5F4] mt-10 rounded-lg flex flex-col items-center relative">
+          <div className="h-[25%]  w-[75vw]  md:w-[33%] md:h-[60vh]  lg:w-[350px] lg:h-[483px] bg-[#F4F5F4] mt-10 rounded-lg flex flex-col items-center relative">
             <p className="font-inter font-bold text-xs mt-[8%] md:mt-[36px]">
               PREMIUM
             </p>
@@ -294,7 +218,7 @@ const AllScreens = () => {
             <p className="font-inter font-normal text-xs md:text-base leading-7 mx-[10%] text-center mt-[8%] md:mt-[50px]">
               All Modules 24/7 Live Support
             </p>
-            <button className="text-[#12141D] font-bold text-xs font-jost leading-5 bg-[#FFFFFF] w-[60vw] rounded absolute bottom-4 md:w-[280px] h-[60px] md:text-base md:bottom-16">
+            <button className="text-[#12141D] font-bold text-xs font-jost leading-5 bg-[#FFFFFF] w-[60vw] rounded absolute bottom-4 lg:w-[280px] h-[60px] md:text-base md:bottom-16 md:w-[200px]">
               Start 14 Days Free Trial
             </button>
           </div>
@@ -308,6 +232,7 @@ const AllScreens = () => {
           Companies
         </p>
         {/* carousel start  */}
+        <Carousel />
         {/* carousel end  */}
         <div className="hidden md:flex md:flex-row md:gap-10 md:w-[80%]">
           <div className="bg-[#FFFFFF] md:w-[372px] md:h-[443px] rounded-[10px] flex flex-col items-center">
@@ -494,7 +419,7 @@ const AllScreens = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-row justify-center items-center md:p-32 md:pt-0 md:justify-start md:flex-nowrap gap-10 my-20 mt-0  flex-wrap relative">
+      <div className="flex flex-row justify-center items-center md:p-32 md:pt-0 md:justify-start md:flex-nowrap gap-10 my-20 md:mb-0 pb-0 md:pb-10 mb-10 mt-0  flex-wrap relative bg-[#FFFFFF]">
         <img
           className="sm:w-[3%] md:w-[2%] sm:h-[3%]"
           src={twitterIcon}

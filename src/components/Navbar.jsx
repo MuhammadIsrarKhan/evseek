@@ -10,9 +10,12 @@ const Navbar = () => {
         alt="mainLogo"
       />
       <ul className="hidden md:flex md:flex-row md:absolute md:left-[30%] md:top-[90%] md:gap-8">
-        <li className="font-inter font-medium text-base text-[#161616]">
-          Demos
-        </li>
+        <button>
+          {" "}
+          <li className="font-inter font-medium text-base text-[#161616]">
+            Demos
+          </li>
+        </button>
         <li className="font-inter font-medium text-base text-[#161616]">
           About
         </li>
