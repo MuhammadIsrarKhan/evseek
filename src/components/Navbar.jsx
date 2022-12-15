@@ -28,13 +28,15 @@ const Navbar = () => {
       </ul>
       <button
         type="button"
-        className="bg-[#21D57C] hidden md:z-50 md:inline-block md:absolute md:right-[5%] md:top-[60%] w-[152px] h-[50px] rounded-lg"
+        className="bg-[#21D57C] hidden z-0 md:z-50 md:inline-block md:absolute md:right-[5%] md:top-[60%] w-[152px] h-[50px] rounded-lg"
       >
         <p className="font-semibold text-xs md:text-base text-[#FFFFFF] font-inter">
           Download App
         </p>
       </button>
-      <img className="md:hidden" src={hamburgerBtn} alt="hamburger btn" />
+      <button>
+        <img className="md:hidden" src={hamburgerBtn} alt="hamburger btn" />
+      </button>
     </div>
   );
 };

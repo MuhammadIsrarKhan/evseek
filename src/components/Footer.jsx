@@ -94,7 +94,7 @@ const Footer = () => {
             <p>Support</p>
           </div>
           <img
-            className="w-[65vw] h-[8vh] sm:w-[75%] sm:h-[75%] md:w-[30%] md:h-[30%] absolute md:relative md:mt-0 sm:mt-18 top-[20px]"
+            className="w-[65vw] h-[8vh] sm:w-[75%] sm:h-[75%] md:w-[30%] md:h-[30%] absolute md:relative md:mt-0 sm:mt-18 top-[20px] md:top-0"
             src={copyWrite}
             alt="copyWrite"
           />

@@ -1,18 +1,19 @@
 import "./Carousel.css";
 import testimonial from "../assets/Testimonial/testi.svg";
+import testimonial2 from "../assets/Testimonial/testi2.svg";
+import testimonial3 from "../assets/Testimonial/testi3.svg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Autoplay, Pagination } from "swiper";
-export default function App() {
+export default function Carousel() {
   return (
     <>
       <div
-        style={{ backgroundColor: "#F6FAF6" }}
+        style={{ backgroundColor: "#FFFFFF" }}
         className="md:hidden w-[90%] h-[65vh]"
       >
         <Swiper
-          spaceBetween={30}
           pagination={{
             clickable: true,
           }}
@@ -20,13 +21,14 @@ export default function App() {
             delay: 2500,
             disableOnInteraction: false,
           }}
+          loop={true}
           modules={[Autoplay, Pagination]}
           className="mySwiper"
         >
           {/* shadow-[0px_34px_104px_rgba(18,22,28,0.1)] */}
           <SwiperSlide>
             {" "}
-            <div className="bg-[#FFFFFF] w-[227px] h-[312px] rounded-[10px] flex flex-col items-center  mt-44 pt-5">
+            <div className="bg-[#FFFFFF] w-[227px] h-[312px] rounded-[10px] flex flex-col items-center pt-5">
               <img
                 style={{ width: "66px", height: "66px" }}
                 src={testimonial}
@@ -46,10 +48,10 @@ export default function App() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="bg-[#FFFFFF] w-[227px] h-[312px] rounded-[10px] flex flex-col items-center mt-44 pt-5">
+            <div className="bg-[#FFFFFF] w-[227px] h-[312px] rounded-[10px] flex flex-col items-center pt-5">
               <img
                 style={{ width: "66px", height: "66px" }}
-                src={testimonial}
+                src={testimonial2}
                 alt="img1"
               />
               <p className="font-normal font-inter text-xs text-center text-[#121D12] mx-5 mt-[16px]">
@@ -66,10 +68,10 @@ export default function App() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="bg-[#FFFFFF] w-[227px] h-[312px] rounded-[10px] flex flex-col items-center mt-44 pt-5">
+            <div className="bg-[#FFFFFF] w-[227px] h-[312px] rounded-[10px] flex flex-col items-center  pt-5">
               <img
                 style={{ width: "66px", height: "66px" }}
-                src={testimonial}
+                src={testimonial3}
                 alt="img1"
               />
               <p className="font-normal font-inter text-xs text-center text-[#121D12] mx-5 mt-[16px]">

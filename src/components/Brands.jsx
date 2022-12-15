@@ -1,11 +1,12 @@
-import Tesla from "../assets/Brands/tesla.svg";
-import Bramo from "../assets/Brands/brammo.svg";
-import Nio from "../assets/Brands/nio.svg";
-import Drako from "../assets/Brands/drako.svg";
+import Tesla from "../assets/Brands/tesla.png";
+import Bramo from "../assets/Brands/brammo.png";
+import Nio from "../assets/Brands/nio.png";
+import Drako from "../assets/Brands/drako.png";
 import bestPrice from "../assets/Brands/bestPrice.svg";
 import quik from "../assets/Brands/quik.svg";
 import ev from "../assets/Brands/ev.svg";
 import support from "../assets/Brands/support.svg";
+import CarouselBrands from "./CarouselBrands";
 const Brands = () => {
   return (
     <>
@@ -14,11 +15,28 @@ const Brands = () => {
         <p className="font-bold text-base md:text-xl text-[#181B18] text-center pt-[10vh] font-inter mx-20">
           Trusted by nearly all top EV car companies
         </p>
-        <div className="flex flex-row justify-between lg:justify-center lg:gap-16 touch-pan-x overflow-x-auto gap-5 items-center mx-12 mt-10">
-          <img src={Tesla} alt="Tesla icon" />
-          <img src={Bramo} alt="Tesla icon" />
-          <img src={Nio} alt="Tesla icon" />
-          <img src={Drako} alt="Tesla icon" />
+        <CarouselBrands />
+        <div className="hidden md:flex md:flex-row md:justify-between lg:justify-center lg:gap-16 touch-pan-x overflow-x-auto gap-5 items-center mx-12 mt-10">
+          <img
+            className="md:w-[188px] md:h-[46px]"
+            src={Tesla}
+            alt="Tesla icon"
+          />
+          <img
+            className="md:w-[264px] md:h-[58px]"
+            src={Bramo}
+            alt="Tesla icon"
+          />
+          <img
+            className="md:w-[125px] md:h-[47px]"
+            src={Nio}
+            alt="Tesla icon"
+          />
+          <img
+            className="md:w-[200px] md:h-[38px]"
+            src={Drako}
+            alt="Tesla icon"
+          />
         </div>
         <div className="flex justify-center align-middle items-center mt-16">
           <hr className="w-[50vw] text-center" />
