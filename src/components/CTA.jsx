@@ -52,7 +52,11 @@ const CTX = () => {
         </div>
       </div>
       <div className="h-[295px] bg-[#F3FDF3] flex flex-col md:flex-row md:gap-5 md:justify-between md:p-10 items-center">
-        <div className="md:w-[470px]">
+        <div
+          data-aos="zoom-in-right"
+          data-aos-duration="2000"
+          className="md:w-[470px]"
+        >
           <img
             className="w-[80vw] h-[15vh] mt-5 mx-auto"
             src={downloadApp}
@@ -63,7 +67,11 @@ const CTX = () => {
             electricity cost/unit.
           </p>
         </div>
-        <div className="flex flex-row justify-between gap-5 mt-9">
+        <div
+          data-aos="zoom-in-left"
+          data-aos-duration="2000"
+          className="flex flex-row justify-between gap-5 mt-9"
+        >
           <button>
             <img src={FirstBtn} alt="FirstBtn" />
           </button>

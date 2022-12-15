@@ -12,11 +12,17 @@ const Brands = () => {
     <>
       {/* Brands and feature section here  */}
       <div className="bg-[#FFFFFF] h-auto">
-        <p className="font-bold text-base md:text-xl text-[#181B18] text-center pt-[10vh] font-inter mx-20">
+        <p
+          data-aos="zoom-in"
+          className="font-bold text-base md:text-xl text-[#181B18] text-center pt-[10vh] font-inter mx-20"
+        >
           Trusted by nearly all top EV car companies
         </p>
         <CarouselBrands />
-        <div className="hidden md:flex md:flex-row md:justify-center lg:justify-center lg:gap-16 touch-pan-x overflow-x-auto gap-5 items-center mx-12 mt-10">
+        <div
+          data-aos="zoom-in"
+          className="hidden md:flex md:flex-row md:justify-center lg:justify-center lg:gap-16 touch-pan-x overflow-x-auto gap-5 items-center mx-12 mt-10"
+        >
           <img
             className="lg:w-[188px] lg:h-[46px] md:w-[150px] md:h-[30px]"
             src={Tesla}
@@ -42,11 +48,14 @@ const Brands = () => {
           <hr className="w-[50vw] text-center" />
         </div>
         <div className="flex flex-col">
-          <p className="font-semibold text-2xl md:text-4xl lg:text-[42px] lg:leading-[46px] text-[#000000] text-center mx-[10vw] mt-10 font-jost tracking-wider">
+          <p
+            data-aos="zoom-out"
+            className="font-semibold text-2xl md:text-4xl lg:text-[42px] lg:leading-[46px] text-[#000000] text-center mx-[10vw] mt-10 font-jost tracking-wider"
+          >
             350 thousands Customers are using EVSeek
           </p>
           <div className="md:flex md:flex-row p-[10%] md:pt-0 md:mt-[80px] ">
-            <div>
+            <div data-aos="zoom-in-right">
               <div className="flex flex-row gap-5 mt-12 mx-5">
                 <img
                   className=" w-[8vw] h-[8vh]"
@@ -82,7 +91,7 @@ const Brands = () => {
                 </div>
               </div>
             </div>
-            <div>
+            <div data-aos="zoom-in-left">
               <div className="flex flex-row gap-5 mt-12 mx-5">
                 <img
                   className=" w-[8vw] h-[8vh]"

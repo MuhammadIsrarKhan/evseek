@@ -1,15 +1,27 @@
 const Pricing = () => {
   return (
     <div className="h-[1339px] md:h-[883px]  px-10 bg-[#FFFFFF] flex flex-col items-center">
-      <p className="font-semibold md:text-5xl md:mt-10 text-[#000000] font-jost mt-5 leading-8">
+      <p
+        data-aos="fade-down"
+        data-aos-duration="1500"
+        className="font-semibold md:text-5xl md:mt-10 text-[#000000] font-jost mt-5 leading-8"
+      >
         Pricing & Plan
       </p>
-      <p className="font-normal text-xs md:text-lg text-[#52525B] mt-5 lg:mx-10 md:mx-28 font-inter text-center">
+      <p
+        data-aos="fade-down"
+        data-aos-duration="1500"
+        className="font-normal text-xs md:text-lg text-[#52525B] mt-5 lg:mx-10 md:mx-28 font-inter text-center"
+      >
         Both a free trial and a free set of features for anyone who wants to use
         them. Choose your favourite plan.
       </p>
       <div className="h-full md:flex md:flex-row md:gap-4 md:justify-center md:mt-14">
-        <div className="h-[25%]  w-[75vw] md:w-[33%] md:h-[60vh]  lg:w-[350px] lg:h-[483px] bg-[#F4F5F4] mt-10 rounded-lg flex flex-col  items-center relative">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          className="h-[25%]  w-[75vw] md:w-[33%] md:h-[60vh]  lg:w-[350px] lg:h-[483px] bg-[#F4F5F4] mt-10 rounded-lg flex flex-col  items-center relative"
+        >
           <p className="font-inter font-bold text-xs mt-[8%] md:mt-[36px]">
             BASIC
           </p>
@@ -26,7 +38,11 @@ const Pricing = () => {
             Start 14 Days Free Trial
           </button>
         </div>
-        <div className="h-[25%] w-[75vw]  md:w-[33%] md:h-[65vh]  lg:w-[350px] lg:h-[520px] md:shadow bg-[#0F2A0F] mt-[8%] md:mt-0 rounded-lg flex flex-col items-center relative">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          className="h-[25%] w-[75vw]  md:w-[33%] md:h-[65vh]  lg:w-[350px] lg:h-[520px] md:shadow bg-[#0F2A0F] mt-[8%] md:mt-0 rounded-lg flex flex-col items-center relative"
+        >
           <p className="font-inter font-bold text-xs mt-[8%] text-[#FFFFFF] md:mt-[36px]">
             STANDARD
           </p>
@@ -44,7 +60,11 @@ const Pricing = () => {
             Start 14 Days Free Trial
           </button>
         </div>
-        <div className="h-[25%]  w-[75vw]  md:w-[33%] md:h-[60vh]  lg:w-[350px] lg:h-[483px] bg-[#F4F5F4] mt-10 rounded-lg flex flex-col items-center relative">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          className="h-[25%]  w-[75vw]  md:w-[33%] md:h-[60vh]  lg:w-[350px] lg:h-[483px] bg-[#F4F5F4] mt-10 rounded-lg flex flex-col items-center relative"
+        >
           <p className="font-inter font-bold text-xs mt-[8%] md:mt-[36px]">
             PREMIUM
           </p>

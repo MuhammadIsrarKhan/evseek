@@ -1,4 +1,4 @@
-import mainLogo from "../assets/navbar/mainLogo.svg";
+import mainLogo from "../assets/navbar/mainLogo.png";
 import twitterIcon from "../assets/footer/twitter.svg";
 import facebookIcon from "../assets/footer/facebook.svg";
 import instaIcon from "../assets/footer/insta.svg";
@@ -9,16 +9,32 @@ const Footer = () => {
     <>
       <div className="flex flex-col items-stretch bg-[#FFFFFF]">
         <div className="h-[700px] sm:h-[600px] md:h-[465px] md:p-32  flex flex-col md:flex-row md:gap-16 md:justify-center">
-          <div className="p-10 pb-0 sm:pl-[17%] sm:pb-0 md:p-0">
-            <img src={mainLogo} alt="mainLogo" />
-            <ul className="font-inter font-normal text-xs md:text-base text-[#525B52] mt-8">
+          <div
+            data-aos="zoom-out-down"
+            data-aos-duration="1500"
+            className="p-10 pb-0 sm:pl-[17%] sm:pb-0 md:p-0"
+          >
+            <img
+              className="w-[105px] h-[20px] lg:w-[158px] lg:h-[30px]"
+              src={mainLogo}
+              alt="mainLogo"
+            />
+            <ul
+              data-aos="zoom-out-down"
+              data-aos-duration="1500"
+              className="font-inter font-normal text-xs md:text-base text-[#525B52] mt-8"
+            >
               <li className="mt-3">About</li>
               <li className="mt-3">Features</li>
               <li className="mt-3">Works</li>
               <li className="mt-3">Career</li>
             </ul>
           </div>
-          <div className="flex flex-row  justify-between p-10 md:p-0 sm:justify-center gap-[40%] md:gap-16">
+          <div
+            data-aos="zoom-out-down"
+            data-aos-duration="1500"
+            className="flex flex-row  justify-between p-10 md:p-0 sm:justify-center gap-[40%] md:gap-16"
+          >
             <div>
               <p className="font-semibold text-sm md:text-lg text-[#181B18] font-inter">
                 Help
@@ -30,7 +46,7 @@ const Footer = () => {
                 <li className="mt-3">Privacy Policy</li>
               </ul>
             </div>
-            <div>
+            <div data-aos="zoom-out-down" data-aos-duration="1500">
               <p className="font-semibold text-sm text-[#181B18] font-inter md:text-lg">
                 Resources
               </p>
@@ -42,7 +58,11 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className="flex flex-row justify-between sm:justify-center gap-[40%] md:gap-16 p-10 pt-0">
+          <div
+            data-aos="zoom-out-down"
+            data-aos-duration="1500"
+            className="flex flex-row justify-between sm:justify-center gap-[40%] md:gap-16 p-10 pt-0"
+          >
             <div>
               <p className="font-semibold text-sm text-[#181B18] font-inter md:text-lg">
                 Extra Links
@@ -54,7 +74,7 @@ const Footer = () => {
                 <li className="mt-3">Privacy Policy</li>
               </ul>
             </div>
-            <div>
+            <div data-aos="zoom-out-down" data-aos-duration="1500">
               <p className="font-semibold text-sm text-[#181B18] font-inter md:text-lg">
                 Policies
               </p>
