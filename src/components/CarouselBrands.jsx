@@ -2,7 +2,7 @@ import "./CarouselBrands.css";
 import Tesla from "../assets/Brands/tesla.png";
 import Bramo from "../assets/Brands/brammo.png";
 import Nio from "../assets/Brands/nio.png";
-import Drako from "../assets/Brands/drako.png";
+// import Drako from "../assets/Brands/drako.png";
 // import { Swiper, SwiperSlide } from "swiper/react";
 // import "swiper/css";
 // import "swiper/css/pagination";
@@ -72,7 +72,7 @@ export default function CarouselBrands() {
         >
           <SwiperSlide>
             <div className="bg-[#FFFFFF] w-full">
-              <div className="w-[198px] h-[43.5px] ml-[25%]">
+              <div className="w-[198px] h-[43.5px]  mx-auto">
                 {" "}
                 <img src={Tesla} alt="Tesla icon" />
               </div>
@@ -81,7 +81,7 @@ export default function CarouselBrands() {
 
           <SwiperSlide>
             <div className="bg-[#FFFFFF] w-full">
-              <div className="w-[198px] h-[43.5px] ml-[25%]">
+              <div className="w-[198px] h-[43.5px]  mx-auto">
                 {" "}
                 <img src={Bramo} alt="Tesla icon" />
               </div>
@@ -89,7 +89,7 @@ export default function CarouselBrands() {
           </SwiperSlide>
           <SwiperSlide className=" bg-[#ffffff]">
             <div className="bg-[#FFFFFF] w-full">
-              <div className="w-[158px] h-[54px] ml-[30%]">
+              <div className="w-[158px] h-[54px] mx-auto">
                 {" "}
                 <img src={Nio} alt="Tesla icon" />
               </div>
@@ -97,7 +97,7 @@ export default function CarouselBrands() {
           </SwiperSlide>
           <SwiperSlide>
             <div className="bg-[#FFFFFF] w-full">
-              <div className="w-[198px] h-[43.5px] ml-[25%]">
+              <div className="w-[198px] h-[43.5px]  mx-auto">
                 {" "}
                 <img src={Bramo} alt="Tesla icon" />
               </div>

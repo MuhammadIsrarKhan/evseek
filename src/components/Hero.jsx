@@ -1,25 +1,26 @@
 import Navbar from "./Navbar";
-import iphone from "../assets/hero/iphone.svg";
+// import iphone from "../assets/hero/iphone.svg";
+import iphone from "../assets/hero/lgIphone.png";
 import star from "../assets/hero/star.svg";
 import smallImg from "../assets/hero/smallImg.png";
 import Avatar from "../assets/hero/avatar.svg";
 const Hero = () => {
   return (
     <>
-      <div className="bg-[#F3FCF3] pb-[5%]">
+      <div className="bg-[#F3FCF3] pb-[5%] md:h-[800px]">
         <Navbar />
         {/* hero section  */}
         <div className="md:flex md:flex-row relative md:ml-[10%]">
           <div className="md:mt-[5%]">
             {" "}
-            <h1 className="font-semibold md:w-[90%]  text-4xl md:text-[50px] md:leading-[60px] font-jost text-[#121D17] text-center mt-[10vh] mx-4 md:mx-0 md:text-left">
+            <h1 className="font-semibold lg:w-[90%] md:w-[100%]  text-4xl md:text-[50px] md:leading-[60px] font-jost text-[#121D17] text-center mt-[10vh] mx-4 md:mx-0 md:text-left">
               Finding suitable charging stations!
             </h1>
-            <p className="text-center font-normal text-sm md:text-xl mt-[5vh] md:mt-5 mx-4 font-inter md:w-[60%] md:mx-0 md:text-left text-[#121D17]">
+            <p className="text-center font-normal text-sm md:text-xl mt-[5vh] md:mt-5 mx-4 font-inter lg:w-[60%] md:w-[80%] md:mx-0 md:text-left text-[#121D17]">
               Our goal is to make it easy for new EV owners to charge with low
               electricity cost/unit.
             </p>
-            <div className="text-center  md:absolute md:mt-9 mt-5">
+            <div className="text-center  md:absolute lg:mt-4 md:mt-3 mt-5">
               <button className="bg-[#21D57C] w-[144px] h-[41px] md:w-[193px] md:h-[55px] p-3 rounded-lg">
                 <p className="font-semibold text-xs md:text-base text-[#FFFFFF] font-inter">
                   Check our features
@@ -49,14 +50,15 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col mt-10 content-center justify-center items-center relative md:right-[5%] md:w-[618px] md:h-[710px]">
+          <div className="flex flex-col mt-[70px] content-center justify-center items-center relative md:right-[5%] md:w-[618px] md:h-[710px] ">
+            <div className="w-[331.87px] h-[331.87px] lg:w-[552px] lg:h-[552px] bg-[#ffc947] rounded-full"></div>
             <img
-              className="w-[345px] h-[391px] md:w-[100%] md:h-[100%]"
+              className="w-[206.72px] h-[368.22px] md:w-[200px] md:h-[370px] lg:w-[360.2px] lg:h-[600.17px] absolute -top-[33px] md:top-[155px] lg:top-[31.5px] -rotate-2 lg:rotate-[1deg] translate-x-1 lg:translate-x-[8px] "
               src={iphone}
               alt="iphoneimage absolute"
             />
             <img
-              className="w-[175.07px] h-[130.07px] md:w-[285px] md:h-[200px]  absolute -translate-x-24 translate-y-7"
+              className="w-[175.07px] h-[130.07px] lg:w-[295px] lg:h-[210px]  absolute lg:-translate-x-40 -translate-y-2 lg:-translate-y-5 -translate-x-24"
               src={smallImg}
               alt="iphoneimage absolute"
             />

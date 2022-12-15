@@ -1,8 +1,8 @@
 import IphoneFourthPage from "../assets/Content1/fourth.svg";
 const Content2 = () => {
   return (
-    <div className="h-[598px] md:h-[60vh] bg-[#F5F5F5] lg:h-[600px] text-center flex flex-col items-center relative overflow-hidden">
-      <div className="md:absolute md:left-0 md:top-[30%] md:w-[50%]">
+    <div className="h-[598px] md:h-[600px] bg-[#F5F5F5] lg:h-[600px] text-center flex flex-col items-center relative overflow-hidden">
+      <div className="md:absolute md:left-0 lg:top-[30%] md:top-[10%]  md:w-[50%]">
         <p className="font-semibold text-[22px]  text-[#000000] pt-10 mx-10 font-jost md:w-[416px] md:text-left md:leading-[42px] md:text-[42px]">
           Plan your trip using EVSeek.
         </p>

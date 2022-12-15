@@ -67,7 +67,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-row justify-center items-center md:p-32 md:pt-0 md:justify-start md:flex-nowrap gap-10 my-20 md:mb-0 pb-0 md:pb-10 mt-0  flex-wrap relative ">
+        <div className="flex flex-row justify-center items-center md:p-32   md:pt-0 md:justify-start md:flex-nowrap gap-10 my-20 md:mb-0 pb-0 md:pb-10 mt-0  flex-wrap relative ">
           <img
             className="sm:w-[3%] md:w-[2%] sm:h-[3%]"
             src={twitterIcon}
@@ -88,7 +88,7 @@ const Footer = () => {
             src={githubIcon}
             alt="twitterIcon"
           />
-          <div className="hidden md:flex md:flex-row md:gap-5 font-inter text-sm text-[#525B52] md:w-[90%] ">
+          <div className="hidden md:flex md:flex-row md:gap-5 font-inter text-sm text-[#525B52] md:w-[100%] ">
             <p>Privacy Policy</p>
             <p>Terms and Conditions</p>
             <p>Support</p>
