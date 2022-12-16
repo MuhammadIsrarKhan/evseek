@@ -1,7 +1,7 @@
 import IphoneThirdPage from "../assets/Content1/iphone.svg";
 const Content1 = () => {
   return (
-    <div className="h-[598px] md:h-[600px] lg:h-[600px] bg-[#0F2A0F] text-center flex flex-col items-center relative overflow-hidden">
+    <div className=" h-[598px] md:h-[600px] lg:h-[600px] bg-[#0F2A0F] text-center flex flex-col items-center relative overflow-hidden">
       <div
         data-aos="fade-down"
         data-aos-duration="2000"

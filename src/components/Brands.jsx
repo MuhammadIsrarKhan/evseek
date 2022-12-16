@@ -19,6 +19,7 @@ const Brands = () => {
           Trusted by nearly all top EV car companies
         </p>
         <CarouselBrands />
+        {/* brands images  */}
         <div
           data-aos="zoom-in"
           className="hidden md:flex md:flex-row md:justify-center lg:justify-center lg:gap-16 touch-pan-x overflow-x-auto gap-5 items-center mx-12 mt-10"
@@ -44,6 +45,8 @@ const Brands = () => {
             alt="Tesla icon"
           />
         </div>
+        {/* brand images end  */}
+        {/* feature section start  */}
         <div className="flex justify-center align-middle items-center mt-16">
           <hr className="w-[50vw] text-center" />
         </div>

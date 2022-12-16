@@ -9,7 +9,8 @@ import Footer from "./Footer";
 
 const Evseek = () => {
   return (
-    <>
+    <div className="overflow-x-hidden">
+      {/* All the components for this one page application name with reference of figma design */}
       <Hero />
       <Brands />
       <Content1 />
@@ -18,7 +19,7 @@ const Evseek = () => {
       <Testimonial />
       <CTX />
       <Footer />
-    </>
+    </div>
   );
 };
 

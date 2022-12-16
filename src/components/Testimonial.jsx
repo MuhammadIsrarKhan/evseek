@@ -13,10 +13,12 @@ const Testimonial = () => {
         Trusted by <span className="text-[#21D57C]">30k+</span> Customers &
         Companies
       </p>
-
+      {/* carousel of testamonil for mobile devices  */}
       <Carousel />
 
+      {/* testamonil section for desktops  */}
       <div className="hidden md:flex md:flex-row md:justify-center md:gap-10 md:w-[80%] lg:mt-[80px] md:mt-10">
+        {/* 1  */}
         <div
           data-aos="zoom-in-right"
           data-aos-duration="2000"
@@ -35,6 +37,7 @@ const Testimonial = () => {
             Project Manager at Microsoft
           </p>
         </div>
+        {/* 2 */}
         <div
           data-aos="zoom-in-up"
           data-aos-duration="2000"
@@ -53,6 +56,7 @@ const Testimonial = () => {
             Project Manager at Microsoft
           </p>
         </div>
+        {/* 3 */}
         <div
           data-aos="zoom-in-left"
           data-aos-duration="2000"
@@ -82,7 +86,7 @@ const Testimonial = () => {
       <button
         data-aos="zoom-in-up"
         data-aos-duration="2000"
-        className="bg-[#21D57C] w-[147px] h-[41px] rounded-lg md:w-[196px] md:h-[55px] md:mt-[73px] mt-[40px]"
+        className="bg-[#21D57C] hover:bg-[#15a85e] hover:animate-wiggle w-[147px] h-[41px] rounded-lg md:w-[196px] md:h-[55px] md:mt-[73px] mt-[40px]"
       >
         <p className="font-semibold text-xs md:text-base text-[#FFFFFF] font-inter">
           Download Our App
