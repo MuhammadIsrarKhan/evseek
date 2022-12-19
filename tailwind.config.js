@@ -23,6 +23,7 @@ module.exports = {
       inter: ["Inter"],
       Plus: ["Plus Jakarta Sans"],
       Space: ["Space Grotesk"],
+      public: ["Public Sans"],
     },
   },
 };

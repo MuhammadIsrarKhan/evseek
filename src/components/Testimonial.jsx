@@ -4,7 +4,10 @@ import testimonial3 from "../assets/Testimonial/testi3.svg";
 import Carousel from "./Carousel";
 const Testimonial = () => {
   return (
-    <div className="bg-[#F6FAF6] pb-5 h-[100vh] md:h-[1084px] flex flex-col items-center">
+    <div
+      id="pages"
+      className="bg-[#F6FAF6] pb-5 h-[100vh] md:h-[1084px] flex flex-col items-center"
+    >
       <p
         data-aos="zoom-in-down"
         data-aos-duration="2000"

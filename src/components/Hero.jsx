@@ -27,7 +27,7 @@ const Hero = () => {
             <div className="text-center  md:absolute lg:mt-4 md:mt-3 mt-5">
               <button className="bg-[#21D57C] hover:bg-[#15a85e] hover:animate-wiggle w-[144px] h-[41px] md:w-[193px] md:h-[55px] p-3 rounded-lg">
                 <p className="font-semibold text-xs md:text-base text-[#FFFFFF] font-inter">
-                  Check our features
+                  Start Free Now
                 </p>
               </button>
             </div>
@@ -60,7 +60,7 @@ const Hero = () => {
             data-aos="fade-left"
             data-aos-duration="1500"
           >
-            <div className="w-[331.87px] h-[331.87px] lg:w-[552px] lg:h-[552px] bg-[#ffc947] rounded-full"></div>
+            <div className="w-[331.87px] h-[331.87px] lg:w-[552px] lg:h-[552px] bg-[#dda15e] rounded-full"></div>
             <img
               className="w-[206.72px] h-[368.22px] md:w-[200px] md:h-[370px] lg:w-[360.2px] lg:h-[600.17px] absolute -top-[33px] md:top-[155px] lg:top-[31.5px] -rotate-2 lg:rotate-[1deg] translate-x-1 lg:translate-x-[8px] "
               src={iphone}

@@ -5,6 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
 .Grow:hover {
   transform: scale(1.5);
   transition: all 0.2s ease-in-out;

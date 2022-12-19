@@ -1,6 +1,9 @@
 const Pricing = () => {
   return (
-    <div className="h-[1339px] md:h-[883px]  px-10 bg-[#FFFFFF] flex flex-col items-center">
+    <div
+      id="blog"
+      className="h-[1339px] md:h-[883px]  px-10 bg-[#FFFFFF] flex flex-col items-center"
+    >
       <p
         data-aos="fade-down"
         data-aos-duration="1500"

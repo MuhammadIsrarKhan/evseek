@@ -15,29 +15,30 @@ const Navbar = () => {
     <div className="flex flex-row justify-between p-5 md:relative">
       <img
         data-aos="fade-right"
-        className="md:absolute w-[105px] h-[20px] lg:w-[158px] lg:h-[30px] md:left-[10%] md:top-[90%]"
+        className="md:absolute w-[105px] h-[20px] lg:w-[158px] lg:h-[30px] md:left-[10%] md:top-[90%] z-20"
         src={mainLogo}
         alt="mainLogo"
       />
+      <div className="bg-[#FFFFFF] md:w-[330px] md:h-[200px] lg:w-[374px] lg:h-[295px] absolute z-10 rounded-full md:rotate-[-40deg] lg:rotate-[-30deg] lg:-top-[210px] lg:left-6 md:-top-[150px] md:left-6"></div>
       {/* for medium and large screen nav-items */}
       <ul
         data-aos="fade-right"
         className="hidden md:flex md:flex-row z-50 md:absolute md:left-[30%] md:top-[90%] md:gap-8"
       >
         <li className="font-inter md:cursor-pointer  font-medium text-base text-[#161616]">
-          Demos
+          <a href="#demo"> Demos</a>
         </li>
         <li className="font-inter md:cursor-pointer font-medium text-base text-[#161616]">
-          About
+          <a href="#about">About</a>
         </li>
         <li className="font-inter md:cursor-pointer font-medium text-base text-[#161616]">
-          Blog
+          <a href="#blog">Blog</a>
         </li>
         <li className="font-inter md:cursor-pointer font-medium text-base text-[#161616]">
-          Pages
+          <a href="#pages">Pages</a>
         </li>
         <li className="font-inter md:cursor-pointer font-medium text-base text-[#161616]">
-          Contact
+          <a href="#contact">Contact</a>
         </li>
       </ul>
       <button

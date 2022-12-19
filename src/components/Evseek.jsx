@@ -6,6 +6,7 @@ import Pricing from "./Pricing";
 import Testimonial from "./Testimonial";
 import CTX from "./CTA";
 import Footer from "./Footer";
+import Content3 from "./Content3";
 
 const Evseek = () => {
   return (
@@ -15,6 +16,7 @@ const Evseek = () => {
       <Brands />
       <Content1 />
       <Content2 />
+      <Content3 />
       <Pricing />
       <Testimonial />
       <CTX />

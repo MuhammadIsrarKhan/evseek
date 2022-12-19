@@ -11,7 +11,7 @@ const Brands = () => {
   return (
     <>
       {/* Brands and feature section here  */}
-      <div className="bg-[#FFFFFF] h-auto">
+      <div id="demo" className="bg-[#FFFFFF] h-auto">
         <p
           data-aos="zoom-in"
           className="font-bold text-base md:text-xl text-[#181B18] text-center pt-[10vh] font-inter mx-20"
@@ -55,7 +55,7 @@ const Brands = () => {
             data-aos="zoom-out"
             className="font-semibold text-2xl md:text-4xl lg:text-[42px] lg:leading-[46px] text-[#000000] text-center mx-[10vw] mt-10 font-jost tracking-wider"
           >
-            350 thousands Customers are using EVSeek
+            What we offer?
           </p>
           <div className="md:flex md:flex-row p-[10%] md:pt-0 md:mt-[80px] ">
             <div data-aos="zoom-in-right">

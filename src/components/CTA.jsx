@@ -4,7 +4,10 @@ import SecBTn from "../assets/fifth/secBtn.svg";
 const CTX = () => {
   return (
     <>
-      <div className="h-[429px] bg-[#7FC37E] flex flex-col items-center">
+      <div
+        id="contact"
+        className="h-[429px] bg-[#7FC37E] flex flex-col items-center"
+      >
         <p className="text-[#FAFAFA] font-jost font-semibold text-[22px] md:text-[42px] tracking-wider mt-10">
           Get latest news & updates
         </p>
