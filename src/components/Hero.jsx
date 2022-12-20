@@ -46,10 +46,10 @@ const Hero = () => {
               <img src={Avatar} alt="avatar" className="rounded-full w-10 " />
               <div className=" ml-3 flex flex-col">
                 <p className="font-semibold font-jost tracking-wider text-base text-[#181B1A]">
-                  Israr Khan
+                  Beyza Sultan
                 </p>
-                <p className="text-[#525B57] -translate-y-1 font-jost font-normal text-[14px]">
-                  From Gullimam Tank
+                <p className="text-[#525B57] font-jost font-normal text-[14px]">
+                  CEO at TurkGames
                 </p>
               </div>
             </div>

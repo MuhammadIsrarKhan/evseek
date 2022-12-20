@@ -6,30 +6,30 @@ const CTX = () => {
     <>
       <div
         id="contact"
-        className="h-[429px] bg-[#7FC37E] flex flex-col items-center"
+        className="h-[429px] xl:h-[695px] bg-[#7FC37E] flex flex-col items-center"
       >
-        <p className="text-[#FAFAFA] font-jost font-semibold text-[22px] md:text-[42px] tracking-wider mt-10">
+        <p className="text-[#FAFAFA] font-jost font-semibold text-[22px] md:text-[42px] tracking-wider mt-10 xl:mt-[100px]">
           Get latest news & updates
         </p>
-        <p className="text-[#FFFFFF] font-normal text-xs md:text-lg md:w-[463px] leading-4 tracking-wider font-inter text-center mx-8 mt-5">
+        <p className="text-[#FFFFFF] font-normal text-xs md:text-lg md:w-[463px] leading-4 tracking-wider font-inter text-center mx-8 mt-5 md:leading-[30px]">
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
           sint. Velit officia duis.
         </p>
-        <form className="relative w-[90vw] md:w-[578px] mt-8">
+        <form className="relative w-[90vw] md:w-[578px] xl:w-[578px] xl:h-[70px] mt-8 xl:mt-20">
           <input
             type="search"
-            className="block w-[90vw] md:w-[578px] focus:outline-none p-3  font-bold text-xs   rounded-lg bg-[#F4F4F4] caret-[#7FC37E]"
+            className="block w-[90vw] md:w-[578px] xl:w-[578px] xl:h-[70px] focus:outline-none p-3  font-bold text-xs   rounded-lg xl:rounded-2xl bg-[#F4F4F4] caret-[#7FC37E] xl:text-base"
             placeholder="Enter your email address"
             required
           />
-          <span className="absolute top-1 right-3  bg-[#FFC947] text-base shadow text-[#1A1D1F] focus:outline-none font-semibold rounded-lg translate-x-2  px-3  py-1 ">
-            Subscribe Now
+          <span className="absolute cursor-pointer top-1 xl:top-[10px] xl:right-4 right-3 text-center  bg-[#FFC947] text-base shadow text-[#383120] focus:outline-none font-semibold rounded-lg xl:rounded-[10px] translate-x-2  px-3  py-1 xl:w-[163px] xl:h-[52px]">
+            <span className="xl:mt-3 xl:inline-block">Subscribe Now</span>
           </span>
         </form>
-        <p className="text-[#FFFFFF] font-normal text-xs md:text-sm leading-4 tracking-wider font-inter text-center mx-8 mt-2">
+        <p className="text-[#FFFFFF] font-normal text-xs md:text-sm leading-4 tracking-wider font-inter text-center mx-8 mt-2 xl:mt-5">
           No ads. No trails. No commitments
         </p>
-        <div className="flex flex-row mt-20 md:mt-5 gap-16">
+        <div className="flex flex-row mt-20 md:mt-5 xl:mt-[60px] gap-16 xl:gap-48">
           <div className="flex flex-col items-center gap-3 md:gap-1">
             <p className="font-jost font-semibold text-xl md:text-4xl text-[#FFFFFF] leading-3">
               6+

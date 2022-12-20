@@ -70,31 +70,12 @@ const Brands = () => {
                     Get Best Price
                   </p>
                   <p className="font-normal text-xs md:text-base md:leading-6 text-[#545954] font-Plus">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
-                    do amet sint. Velit officia consequat duis enim velit
-                    mollit.
+                    Amet minim mollit non deserunt ullamco est <br /> sit aliqua
+                    dolor do amet sint. Velit officia <br /> consequat duis enim
+                    velit mollit.
                   </p>
                 </div>
               </div>
-              <div className="flex flex-row gap-5 mt-12 mx-5">
-                <img
-                  className=" w-[8vw] h-[8vh]"
-                  src={quik}
-                  alt="bestprice icon"
-                />
-                <div className="flex flex-col gap-3">
-                  <p className="font-bold text-sm text-[#000000] font-Plus md:text-[18px]">
-                    Get Best Price
-                  </p>
-                  <p className="font-normal text-xs text-[#545954] font-Plus md:text-base md:leading-6">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
-                    do amet sint. Velit officia consequat duis enim velit
-                    mollit.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div data-aos="zoom-in-left">
               <div className="flex flex-row gap-5 mt-12 mx-5">
                 <img
                   className=" w-[8vw] h-[8vh]"
@@ -103,12 +84,31 @@ const Brands = () => {
                 />
                 <div className="flex flex-col gap-3">
                   <p className="font-bold text-sm text-[#000000] font-Plus md:text-[18px]">
-                    Get Best Price
+                    120+ EV Stations in Finland
                   </p>
                   <p className="font-normal text-xs text-[#545954] font-Plus md:text-base md:leading-6">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
-                    do amet sint. Velit officia consequat duis enim velit
-                    mollit.
+                    Amet minim mollit non deserunt ullamco est <br /> sit aliqua
+                    dolor do amet sint. Velit officia <br /> consequat duis enim
+                    velit mollit.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div data-aos="zoom-in-left">
+              <div className="flex flex-row gap-5 mt-12 mx-5">
+                <img
+                  className=" w-[8vw] h-[8vh]"
+                  src={quik}
+                  alt="bestprice icon"
+                />
+                <div className="flex flex-col gap-3">
+                  <p className="font-bold text-sm text-[#000000] font-Plus md:text-[18px]">
+                    Get Your Station Quickly
+                  </p>
+                  <p className="font-normal text-xs text-[#545954] font-Plus md:text-base md:leading-6">
+                    Amet minim mollit non deserunt ullamco est <br /> sit aliqua
+                    dolor do amet sint. Velit officia <br /> consequat duis enim
+                    velit mollit.
                   </p>
                 </div>
               </div>
@@ -120,12 +120,12 @@ const Brands = () => {
                 />
                 <div className="flex flex-col gap-3">
                   <p className="font-bold text-sm text-[#000000] font-Plus md:text-[18px]">
-                    Get Best Price
+                    Superior Customer Support
                   </p>
                   <p className="font-normal text-xs text-[#545954] font-Plus md:text-base md:leading-6">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
-                    do amet sint. Velit officia consequat duis enim velit
-                    mollit.
+                    Amet minim mollit non deserunt ullamco est <br /> sit aliqua
+                    dolor do amet sint. Velit officia <br /> consequat duis enim
+                    velit mollit.
                   </p>
                 </div>
               </div>

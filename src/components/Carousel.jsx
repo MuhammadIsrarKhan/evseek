@@ -39,12 +39,14 @@ export default function Carousel() {
                 everything that I need while driving my EV, that allows save
                 cost as well as plan my trip according the stations available.”
               </p>
-              <p className="font-semibold font-inter text-sm text-center text-[#121D12] mx-5 mt-[21px]">
-                Jenny Wilson
-              </p>
-              <p className="font-normal font-inter text-xs text-center text-[#525B52] mx-5 mt-1">
-                Project Manager at Microsoft
-              </p>
+              <div className="absolute bottom-[65px]">
+                <p className="font-semibold font-inter text-sm text-center text-[#121D12] mx-5 mt-[21px]">
+                  Jenny Wilson
+                </p>
+                <p className="font-normal font-inter text-xs text-center text-[#525B52] mx-5 mt-1">
+                  Project Manager at Microsoft
+                </p>
+              </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -55,16 +57,19 @@ export default function Carousel() {
                 alt="img1"
               />
               <p className="font-normal font-inter text-xs text-center text-[#121D12] mx-5 mt-[16px]">
-                “I just simply love the app that make my life easier! I have
-                everything that I need while driving my EV, that allows save
-                cost as well as plan my trip according the stations available.”
+                “I really like that I can have all in one place: I can send find
+                nearest stations and Plan my trip, I can have live chat, get
+                push notifications on my screen so i don’t miss the charging
+                stations.”
               </p>
-              <p className="font-semibold font-inter text-sm text-center text-[#121D12] mx-5 mt-[21px]">
-                Jenny Wilson
-              </p>
-              <p className="font-normal font-inter text-xs text-center text-[#525B52] mx-5 mt-1">
-                Project Manager at Microsoft
-              </p>
+              <div className="absolute bottom-[65px]">
+                <p className="font-semibold font-inter text-sm text-center text-[#121D12] mx-5 mt-[21px]">
+                  Robert Fox
+                </p>
+                <p className="font-normal font-inter text-xs text-center text-[#525B52] mx-5 mt-1">
+                  Founder at Brain.co
+                </p>
+              </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -75,16 +80,18 @@ export default function Carousel() {
                 alt="img1"
               />
               <p className="font-normal font-inter text-xs text-center text-[#121D12] mx-5 mt-[16px]">
-                “I just simply love the app that make my life easier! I have
-                everything that I need while driving my EV, that allows save
-                cost as well as plan my trip according the stations available.”
+                “Very easy to use and set up is simple. I can easily search
+                nearest EV charging stations in real-time. It also provides many
+                integrations.”
               </p>
-              <p className="font-semibold font-inter text-sm text-center text-[#121D12] mx-5 mt-[21px]">
-                Jenny Wilson
-              </p>
-              <p className="font-normal font-inter text-xs text-center text-[#525B52] mx-5 mt-1">
-                Project Manager at Microsoft
-              </p>
+              <div className="absolute bottom-[65px]">
+                <p className="font-semibold font-inter text-sm text-center text-[#121D12] mx-5 mt-[21px]">
+                  Kristin Watson
+                </p>
+                <p className="font-normal font-inter text-xs text-center text-[#525B52] mx-5 mt-1">
+                  User from Finland
+                </p>
+              </div>
             </div>
           </SwiperSlide>
         </Swiper>

@@ -32,10 +32,10 @@ const Navbar = () => {
           <a href="#about">About</a>
         </li>
         <li className="font-inter md:cursor-pointer font-medium text-base text-[#161616]">
-          <a href="#blog">Blog</a>
+          <a href="#blog">Pricing</a>
         </li>
         <li className="font-inter md:cursor-pointer font-medium text-base text-[#161616]">
-          <a href="#pages">Pages</a>
+          <a href="#pages">Testimonials</a>
         </li>
         <li className="font-inter md:cursor-pointer font-medium text-base text-[#161616]">
           <a href="#contact">Contact</a>

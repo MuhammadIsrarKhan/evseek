@@ -19,11 +19,7 @@ const Footer = () => {
               src={mainLogo}
               alt="mainLogo"
             />
-            <ul
-              data-aos="zoom-out-down"
-              data-aos-duration="1500"
-              className="font-inter font-normal text-xs md:text-base text-[#525B52] mt-8"
-            >
+            <ul className="font-inter font-normal text-xs md:text-base text-[#525B52] mt-8">
               <li className="mt-3">About</li>
               <li className="mt-3">Features</li>
               <li className="mt-3">Works</li>
@@ -39,7 +35,7 @@ const Footer = () => {
               <p className="font-semibold text-sm md:text-lg text-[#181B18] font-inter">
                 Help
               </p>
-              <ul className="font-inter font-normal text-xs md:text-base text-[#525B52] mt-3">
+              <ul className="font-inter font-normal text-xs md:text-base text-[#525B52] mt-3 xl:mt-8">
                 <li className="mt-3">Customer Support</li>
                 <li className="mt-3">Booking Details</li>
                 <li className="mt-3">Terms & Conditions</li>
@@ -50,7 +46,7 @@ const Footer = () => {
               <p className="font-semibold text-sm text-[#181B18] font-inter md:text-lg">
                 Resources
               </p>
-              <ul className="font-inter font-normal text-xs md:text-base text-[#525B52] mt-3">
+              <ul className="xl:mt-8 font-inter font-normal text-xs md:text-base text-[#525B52] mt-3">
                 <li className="mt-3">Free eBooks</li>
                 <li className="mt-3">Standard Safety Guide</li>
                 <li className="mt-3">How to - Blog</li>
@@ -67,7 +63,7 @@ const Footer = () => {
               <p className="font-semibold text-sm text-[#181B18] font-inter md:text-lg">
                 Extra Links
               </p>
-              <ul className="font-inter font-normal text-xs md:text-base text-[#525B52] mt-3">
+              <ul className="xl:mt-8 font-inter font-normal text-xs md:text-base text-[#525B52] mt-3">
                 <li className="mt-3">Customer Support</li>
                 <li className="mt-3">Booking Details</li>
                 <li className="mt-3">Terms & Conditions</li>
@@ -78,7 +74,7 @@ const Footer = () => {
               <p className="font-semibold text-sm text-[#181B18] font-inter md:text-lg">
                 Policies
               </p>
-              <ul className="font-inter font-normal text-xs md:text-base text-[#525B52] mt-3">
+              <ul className="xl:mt-8 font-inter font-normal text-xs md:text-base text-[#525B52] mt-3">
                 <li className="mt-3">Free eBooks</li>
                 <li className="mt-3">Standard Safety Guide</li>
                 <li className="mt-3">How to - Blog</li>

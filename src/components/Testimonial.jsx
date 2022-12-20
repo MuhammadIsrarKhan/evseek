@@ -28,17 +28,21 @@ const Testimonial = () => {
           className="bg-[#FFFFFF] lg:w-[372px] lg:h-[443px] md:w-[372px] md:h-[520px] rounded-[10px] flex flex-col items-center"
         >
           <img className="mt-[47px]" src={testimonial} alt="img1" />
-          <p className="font-normal font-inter md:text-base text-center text-[#121D12] md:mx-5 md:mt-[16px]">
-            “I just simply love the app that make my life easier! I have
+          <p className="font-normal font-inter md:text-base text-center text-[#121D12] md:mx-5 md:mt-[16px] xl:leading-[28px]">
+            “I just simply love the app that <br /> make my life easier! I have{" "}
+            <br />
             everything that I need while driving my EV, that allows save cost as
-            well as plan my trip according the stations available.”
+            well <br /> as plan my trip according the <br /> stations
+            available.”
           </p>
-          <p className="font-semibold font-inter md:text-base text-center text-[#121D12] md:mx-5 md:mt-[31px]">
-            Jenny Wilson
-          </p>
-          <p className="font-normal font-inter md:text-base text-center text-[#525B52] md:mx-5 md:mt-3">
-            Project Manager at Microsoft
-          </p>
+          <div className="absolute bottom-[35px]">
+            <p className="font-semibold font-inter md:text-base text-center text-[#121D12] md:mx-5 md:mt-[31px]">
+              Jenny Wilson
+            </p>
+            <p className="font-normal font-inter md:text-base text-center text-[#525B52] md:mx-5 md:mt-3 xl:mt-[3px]">
+              Project Manager at Microsoft
+            </p>
+          </div>
         </div>
         {/* 2 */}
         <div
@@ -47,17 +51,21 @@ const Testimonial = () => {
           className="bg-[#FFFFFF] lg:w-[372px] lg:h-[443px] md:w-[372px] md:h-[520px] rounded-[10px] flex flex-col items-center shadow-[0px_34px_104px_rgba(18,22,28,0.1)]"
         >
           <img className="mt-[47px]" src={testimonial2} alt="img1" />
-          <p className="font-normal font-inter md:text-base text-center text-[#121D12] md:mx-5 md:mt-[16px]">
-            “I just simply love the app that make my life easier! I have
-            everything that I need while driving my EV, that allows save cost as
-            well as plan my trip according the stations available.”
+          <p className="font-normal font-inter md:text-base text-center text-[#121D12] md:mx-5 md:mt-[16px] xl:leading-[28px]">
+            “I really like that I can have all in one <br /> place: I can send
+            find nearest <br /> stations and Plan my trip, I can have live chat,
+            get push notifications on <br /> my screen so i don’t miss the{" "}
+            <br />
+            charging stations.”
           </p>
-          <p className="font-semibold font-inter md:text-base text-center text-[#121D12] md:mx-5 md:mt-[31px]">
-            Jenny Wilson
-          </p>
-          <p className="font-normal font-inter md:text-base text-center text-[#525B52] md:mx-5 md:mt-3">
-            Project Manager at Microsoft
-          </p>
+          <div className="absolute bottom-[35px]">
+            <p className="font-semibold font-inter md:text-base text-center text-[#121D12] md:mx-5 md:mt-[31px]">
+              Robert Fox
+            </p>
+            <p className="font-normal font-inter md:text-base text-center text-[#525B52] md:mx-5 md:mt-3 xl:mt-[3px]">
+              Founder at Brain.co
+            </p>
+          </div>
         </div>
         {/* 3 */}
         <div
@@ -66,17 +74,21 @@ const Testimonial = () => {
           className="bg-[#FFFFFF] lg:w-[372px] lg:h-[443px] md:w-[372px] md:h-[520px] rounded-[10px] flex flex-col items-center"
         >
           <img className="mt-[47px]" src={testimonial3} alt="img1" />
-          <p className="font-normal font-inter md:text-base text-center text-[#121D12] md:mx-5 md:mt-[16px]">
-            “I just simply love the app that make my life easier! I have
-            everything that I need while driving my EV, that allows save cost as
-            well as plan my trip according the stations available.”
+          <p className="font-normal font-inter md:text-base text-center text-[#121D12] md:mx-5 md:mt-[16px] xl:leading-[28px]">
+            “Very easy to use and set up <br /> is simple. I can easily search{" "}
+            <br />
+            nearest EV charging stations <br /> in real-time. It also provides{" "}
+            <br />
+            many integrations.”
           </p>
-          <p className="font-semibold font-inter md:text-base text-center text-[#121D12] md:mx-5 md:mt-[31px]">
-            Jenny Wilson
-          </p>
-          <p className="font-normal font-inter md:text-base text-center text-[#525B52] md:mx-5 md:mt-3">
-            Project Manager at Microsoft
-          </p>
+          <div className="absolute bottom-[35px]">
+            <p className="font-semibold font-inter md:text-base text-center text-[#121D12] md:mx-5 md:mt-[31px]">
+              Kristin Watson
+            </p>
+            <p className="font-normal font-inter md:text-base text-center text-[#525B52] md:mx-5 md:mt-3 xl:mt-[3px]">
+              User from Finland
+            </p>
+          </div>
         </div>
       </div>
       <p
