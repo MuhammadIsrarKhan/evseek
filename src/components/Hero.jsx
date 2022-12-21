@@ -17,28 +17,29 @@ const Hero = () => {
             className="md:mt-[5%]"
           >
             {" "}
-            <h1 className="font-semibold lg:w-[90%] md:w-[100%]  text-4xl md:text-[50px] md:leading-[60px] font-jost text-[#121D17] text-center mt-[10vh] mx-4 md:mx-0 md:text-left">
-              Finding suitable charging stations!
+            <h1 className="font-semibold lg:w-[90%] md:w-[100%] xl:w-[724px] xl:h-[160px] xl:leading-[80px] xl:text-[80px] text-4xl md:text-[50px] md:leading-[60px] font-jost text-[#121D17] text-center mt-[10vh] mx-4 md:mx-0 md:text-left">
+              Finding suitable <br className="hidden xl:block" /> charging
+              stations!
             </h1>
-            <p className="text-center font-normal text-sm md:text-xl mt-[5vh] md:mt-5 mx-4 font-inter lg:w-[60%] md:w-[80%] md:mx-0 md:text-left text-[#121D17]">
+            <p className="text-center font-normal text-sm md:text-xl mt-[5vh] md:mt-5 mx-4 font-inter lg:w-[60%] md:w-[80%] md:mx-0 md:text-left text-[#121D17] xl:w-[486px] xl:h-[64px]">
               Our goal is to make it easy for new EV owners to charge with low
               electricity cost/unit.
             </p>
-            <div className="text-center  md:absolute lg:mt-4 md:mt-3 mt-5">
-              <button className="bg-[#21D57C] hover:bg-[#15a85e] hover:animate-wiggle w-[144px] h-[41px] md:w-[193px] md:h-[55px] p-3 rounded-lg">
+            <div className="text-center  md:absolute xl:static xl:-translate-x-[266px] lg:mt-4 md:mt-3 mt-5 xl:mt-[35px]">
+              <button className="bg-[#21D57C] hover:bg-[#15a85e] md:hover:animate-wiggle w-[144px] h-[41px] md:w-[193px] md:h-[55px] p-3 rounded-lg">
                 <p className="font-semibold text-xs md:text-base text-[#FFFFFF] font-inter">
                   Start Free Now
                 </p>
               </button>
             </div>
-            <div className="md:flex md:flex-row hidden md:mt-[20%] md:gap-1 ">
+            <div className="md:flex md:flex-row hidden md:mt-[20%] xl:mt-[57px] md:gap-1 ">
               <img className="Grow" src={star} alt="rating" />
               <img className="Grow" src={star} alt="rating" />
               <img className="Grow" src={star} alt="rating" />
               <img className="Grow" src={star} alt="rating" />
               <img className="Grow" src={star} alt="rating" />
             </div>
-            <p className="hidden md:mt-2 md:inline-block md:w-[60%] font-inter font-normal leading-7 text-[#3F4643] md:text-base">
+            <p className="hidden md:mt-2 md:inline-block md:w-[60%] font-inter font-normal leading-7 text-[#3F4643] md:text-base xl:w-[363px] xl:h-[84px] xl:mt-[26px]">
               “You made it so simple. The App is so much faster and easier to
               navigate through. It is also very helpful in saving the money.”
             </p>
@@ -56,7 +57,7 @@ const Hero = () => {
           </div>
           {/* right side mobile image with cicle  */}
           <div
-            className="flex flex-col mt-[70px] content-center justify-center items-center relative md:right-[5%] md:w-[618px] md:h-[710px] "
+            className="flex flex-col mt-[70px] content-center justify-center items-center relative md:right-[5%] md:w-[618px] md:h-[710px] xl:absolute xl:-right-8"
             data-aos="fade-left"
             data-aos-duration="1500"
           >

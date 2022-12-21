@@ -101,7 +101,7 @@ const Testimonial = () => {
       <button
         data-aos="zoom-in-up"
         data-aos-duration="2000"
-        className="bg-[#21D57C] hover:bg-[#15a85e] hover:animate-wiggle w-[147px] h-[41px] rounded-lg md:w-[196px] md:h-[55px] md:mt-[73px] mt-[40px]"
+        className="bg-[#21D57C] hover:bg-[#15a85e] md:hover:animate-wiggle w-[147px] h-[41px] rounded-lg md:w-[196px] md:h-[55px] md:mt-[73px] mt-[40px]"
       >
         <p className="font-semibold text-xs md:text-base text-[#FFFFFF] font-inter">
           Download Our App

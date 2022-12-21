@@ -39,7 +39,7 @@ const Pricing = () => {
           <p className="font-inter font-normal text-xs md:text-base leading-7 mx-[10%] text-center mt-[8%] md:mt-[50px] sm:mt-[6%] text-[#18181B] xl:leading-[35px]">
             Basic Main Features <br /> 250+ EV Charging Stations
           </p>
-          <button className="text-[#12141D] hover:animate-wiggle font-bold text-xs md:text-base font-jost leading-5 bg-[#FFFFFF] w-[60vw] md:w-[200px] lg:w-[280px] h-[60px] rounded-[5px] absolute bottom-4 md:bottom-16">
+          <button className="text-[#12141D] w-[202.5px] h-[41.25px] md:hover:animate-wiggle font-bold text-xs md:text-base font-jost leading-5 bg-[#FFFFFF] sm:w-[60vw] md:w-[200px] lg:w-[280px] sm:h-[60px] rounded-[5px] absolute bottom-4 md:bottom-16">
             Start 14 Days Free Trial
           </button>
         </div>
@@ -62,7 +62,7 @@ const Pricing = () => {
             Standard Main Features <br /> 500+ EV Charging Stations <br /> Late
             Customer Support <br /> No Ads
           </p>
-          <button className="hover:animate-wiggle font-bold text-xs md:text-base font-jost leading-5 bg-[#21D57C] text-[#FFFFFF] w-[60vw] rounded-[5px] absolute bottom-4 lg:w-[280px] h-[60px] md:bottom-16 md:w-[200px]">
+          <button className="md:hover:animate-wiggle w-[202.5px] h-[41.25px] font-bold text-xs md:text-base font-jost leading-5 bg-[#21D57C] text-[#FFFFFF] sm:w-[60vw] rounded-[5px] absolute bottom-4 lg:w-[280px] sm:h-[60px] md:bottom-16 md:w-[200px]">
             Start 14 Days Free Trial
           </button>
         </div>
@@ -84,7 +84,7 @@ const Pricing = () => {
           <p className="font-inter font-normal text-xs md:text-base leading-7 mx-[10%] text-center mt-[8%] md:mt-[50px] text-[#18181B] xl:leading-[35px]">
             All Modules <br /> 24/7 Live Support
           </p>
-          <button className="text-[#12141D] hover:animate-wiggle font-bold text-xs font-jost leading-5 bg-[#FFFFFF] w-[60vw] rounded-[5px] absolute bottom-4 lg:w-[280px] h-[60px] md:text-base md:bottom-16 md:w-[200px]">
+          <button className="text-[#12141D] w-[202.5px] h-[41.25px] md:hover:animate-wiggle font-bold text-xs font-jost leading-5 bg-[#FFFFFF] sm:w-[60vw] rounded-[5px] absolute bottom-4 lg:w-[280px] sm:h-[60px] md:text-base md:bottom-16 md:w-[200px]">
             Start 14 Days Free Trial
           </button>
         </div>

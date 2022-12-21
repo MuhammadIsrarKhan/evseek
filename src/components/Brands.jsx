@@ -57,7 +57,7 @@ const Brands = () => {
           >
             What we offer?
           </p>
-          <div className="md:flex md:flex-row p-[10%] md:pt-0 md:mt-[80px] ">
+          <div className="md:flex md:flex-row p-[4%] md:p-[10%] md:pt-0 md:mt-[80px] ">
             <div data-aos="zoom-in-right">
               <div className="flex flex-row gap-5 mt-12 mx-5">
                 <img
@@ -69,10 +69,11 @@ const Brands = () => {
                   <p className="font-bold text-sm md:text-[18px] text-[#000000] font-Plus">
                     Get Best Price
                   </p>
-                  <p className="font-normal text-xs md:text-base md:leading-6 text-[#545954] font-Plus">
-                    Amet minim mollit non deserunt ullamco est <br /> sit aliqua
-                    dolor do amet sint. Velit officia <br /> consequat duis enim
-                    velit mollit.
+                  <p className="font-normal w-[284px] md:w-auto text-xs md:text-base md:leading-6 text-[#545954] font-Plus">
+                    Amet minim mollit non deserunt ullamco est{" "}
+                    <br className="hidden md:block" /> sit aliqua dolor do amet
+                    sint. Velit officia <br className="hidden md:block" />{" "}
+                    consequat duis enim velit mollit.
                   </p>
                 </div>
               </div>
@@ -86,10 +87,11 @@ const Brands = () => {
                   <p className="font-bold text-sm text-[#000000] font-Plus md:text-[18px]">
                     120+ EV Stations in Finland
                   </p>
-                  <p className="font-normal text-xs text-[#545954] font-Plus md:text-base md:leading-6">
-                    Amet minim mollit non deserunt ullamco est <br /> sit aliqua
-                    dolor do amet sint. Velit officia <br /> consequat duis enim
-                    velit mollit.
+                  <p className="font-normal w-[284px] md:w-auto text-xs md:text-base md:leading-6 text-[#545954] font-Plus">
+                    Amet minim mollit non deserunt ullamco est{" "}
+                    <br className="hidden md:block" /> sit aliqua dolor do amet
+                    sint. Velit officia <br className="hidden md:block" />{" "}
+                    consequat duis enim velit mollit.
                   </p>
                 </div>
               </div>
@@ -105,10 +107,11 @@ const Brands = () => {
                   <p className="font-bold text-sm text-[#000000] font-Plus md:text-[18px]">
                     Get Your Station Quickly
                   </p>
-                  <p className="font-normal text-xs text-[#545954] font-Plus md:text-base md:leading-6">
-                    Amet minim mollit non deserunt ullamco est <br /> sit aliqua
-                    dolor do amet sint. Velit officia <br /> consequat duis enim
-                    velit mollit.
+                  <p className="font-normal w-[284px] md:w-auto text-xs md:text-base md:leading-6 text-[#545954] font-Plus">
+                    Amet minim mollit non deserunt ullamco est{" "}
+                    <br className="hidden md:block" /> sit aliqua dolor do amet
+                    sint. Velit officia <br className="hidden md:block" />{" "}
+                    consequat duis enim velit mollit.
                   </p>
                 </div>
               </div>
@@ -122,10 +125,11 @@ const Brands = () => {
                   <p className="font-bold text-sm text-[#000000] font-Plus md:text-[18px]">
                     Superior Customer Support
                   </p>
-                  <p className="font-normal text-xs text-[#545954] font-Plus md:text-base md:leading-6">
-                    Amet minim mollit non deserunt ullamco est <br /> sit aliqua
-                    dolor do amet sint. Velit officia <br /> consequat duis enim
-                    velit mollit.
+                  <p className="font-normal w-[284px] md:w-auto text-xs md:text-base md:leading-6 text-[#545954] font-Plus">
+                    Amet minim mollit non deserunt ullamco est{" "}
+                    <br className="hidden md:block" /> sit aliqua dolor do amet
+                    sint. Velit officia <br className="hidden md:block" />{" "}
+                    consequat duis enim velit mollit.
                   </p>
                 </div>
               </div>

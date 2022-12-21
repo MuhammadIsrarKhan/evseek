@@ -28,7 +28,7 @@ export default function Carousel() {
           {/* shadow-[0px_34px_104px_rgba(18,22,28,0.1)] */}
           <SwiperSlide>
             {" "}
-            <div className="bg-[#FFFFFF] w-[227px] h-[312px] rounded-[10px] flex flex-col items-center pt-5">
+            <div className="bg-[#FFFFFF] w-[227px] h-[312px] rounded-[10px] flex flex-col items-center pt-5 relative">
               <img
                 style={{ width: "66px", height: "66px" }}
                 src={testimonial}
@@ -39,7 +39,7 @@ export default function Carousel() {
                 everything that I need while driving my EV, that allows save
                 cost as well as plan my trip according the stations available.”
               </p>
-              <div className="absolute bottom-[65px]">
+              <div className="absolute bottom-[35px]">
                 <p className="font-semibold font-inter text-sm text-center text-[#121D12] mx-5 mt-[21px]">
                   Jenny Wilson
                 </p>
@@ -50,7 +50,7 @@ export default function Carousel() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="bg-[#FFFFFF] w-[227px] h-[312px] rounded-[10px] flex flex-col items-center pt-5">
+            <div className="bg-[#FFFFFF] w-[227px] h-[312px] rounded-[10px] flex flex-col items-center pt-5 relative">
               <img
                 style={{ width: "66px", height: "66px" }}
                 src={testimonial2}
@@ -62,7 +62,7 @@ export default function Carousel() {
                 push notifications on my screen so i don’t miss the charging
                 stations.”
               </p>
-              <div className="absolute bottom-[65px]">
+              <div className="absolute bottom-[35px]">
                 <p className="font-semibold font-inter text-sm text-center text-[#121D12] mx-5 mt-[21px]">
                   Robert Fox
                 </p>
@@ -73,7 +73,7 @@ export default function Carousel() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="bg-[#FFFFFF] w-[227px] h-[312px] rounded-[10px] flex flex-col items-center  pt-5">
+            <div className="bg-[#FFFFFF] w-[227px] h-[312px] rounded-[10px] flex flex-col items-center  pt-5 relative">
               <img
                 style={{ width: "66px", height: "66px" }}
                 src={testimonial3}
@@ -84,7 +84,7 @@ export default function Carousel() {
                 nearest EV charging stations in real-time. It also provides many
                 integrations.”
               </p>
-              <div className="absolute bottom-[65px]">
+              <div className="absolute bottom-[35px]">
                 <p className="font-semibold font-inter text-sm text-center text-[#121D12] mx-5 mt-[21px]">
                   Kristin Watson
                 </p>

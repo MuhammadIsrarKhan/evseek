@@ -91,21 +91,21 @@ const Navbar = () => {
               ></button>
             </div>
             <div class="offcanvas-body flex-grow p-4 overflow-y-auto">
-              <ul data-aos="fade-right" className=" flex flex-col">
+              <ul data-aos="fade-right" className=" flex flex-col z-50 gap-8">
                 <li className="font-inter md:cursor-pointer  font-medium text-base text-[#161616]">
-                  Demos
+                  <a href="#d"> Demos</a>
                 </li>
                 <li className="font-inter md:cursor-pointer font-medium text-base text-[#161616]">
-                  About
+                  <a href="#ab">About</a>
                 </li>
                 <li className="font-inter md:cursor-pointer font-medium text-base text-[#161616]">
-                  Blog
+                  <a href="#b">Pricing</a>
                 </li>
                 <li className="font-inter md:cursor-pointer font-medium text-base text-[#161616]">
-                  Pages
+                  <a href="#pa">Testimonials</a>
                 </li>
                 <li className="font-inter md:cursor-pointer font-medium text-base text-[#161616]">
-                  Contact
+                  <a href="#contact">Contact</a>
                 </li>
               </ul>
             </div>

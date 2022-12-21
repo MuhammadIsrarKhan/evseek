@@ -8,14 +8,14 @@ const Content3 = () => {
         data-aos-duration="2000"
         className="md:absolute  md:right-16 lg:top-[20%] xl:w-[40%] lg:w-[45%] md:top-[10%] md:w-[53%] lg"
       >
-        <p className="font-semibold text-[22px] text-[#12141D] lg:text-[42px] lg:w-[447px] text-left lg:leading-[48px] pt-10 mx-10 font-public md:text-[36px] md:w-[450px]">
+        <p className="font-semibold text-[22px] leading-8 text-[#12141D] lg:text-[42px] lg:w-[447px] text-left lg:leading-[48px] pt-10 mx-10 font-jost md:text-[36px] md:w-[450px]">
           In-app chat between you and Charging Stations
         </p>
         <p className="font-medium hidden text-xs md:text-lg text-left text-[#12141D] md:w-[430px] mt-5 md:mt-1 lg:mt-5 mx-10 font-inter">
           Our app allows users to easily communicate with electric vehicle (EV)
           charging stations.
         </p>
-        <p className="font-medium text-xs md:text-lg text-left text-[#12141D] md:w-[430px] mt-5 md:mt-1 lg:mt-5 mx-10 font-inter">
+        <p className="font-medium text-xs w-[350px] md:text-lg text-left text-[#12141D] md:w-[430px] mt-5 md:mt-1 lg:mt-5 mx-10 font-inter">
           Whether you're on the go and need to charge your EV or simply want to
           check the availability of a charging station, our app makes it easy to
           connect with the station and get the information you need.

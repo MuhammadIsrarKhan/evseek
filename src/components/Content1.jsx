@@ -13,10 +13,11 @@ const Content1 = () => {
         <p className="font-semibold text-[22px] text-[#FFFFFF] lg:text-[42px] lg:w-[447px] text-left lg:leading-[48px] pt-10 mx-10 font-jost md:text-[36px] md:w-[450px]">
           Helping you find stations with best per/unit cost.
         </p>
-        <p className="font-normal text-xs md:text-lg text-left text-[#EDF3F0] md:w-[430px] mt-5 md:mt-1 lg:mt-5 mx-10 font-inter">
-          The Map includes all charging stations in Finland met minim mollit non
-          deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-          consequat duis enim velit mollit.
+        <p className="font-normal text-xs w-[350px] md:text-lg text-left text-[#EDF3F0] md:w-[430px] mt-5 md:mt-1 lg:mt-5 mx-10 font-inter">
+          The Map includes all charging stations in Finland met minim{" "}
+          <br className="block md:hidden" /> mollit non deserunt ullamco est sit
+          aliqua dolor do amet <br className="block md:hidden" /> sint. Velit
+          officia consequat duis enim velit mollit.
         </p>
       </div>
       <div
