@@ -57,7 +57,7 @@ const Brands = () => {
           >
             What we offer?
           </p>
-          <div className="md:flex md:flex-row p-[4%] md:p-[10%] md:pt-0 md:mt-[80px] ">
+          <div className="md:flex md:flex-row md:justify-center p-[4%] md:p-[10%] md:pt-0 md:mt-[80px] ">
             <div data-aos="zoom-in-right">
               <div className="flex flex-row gap-5 mt-12 mx-5">
                 <img
