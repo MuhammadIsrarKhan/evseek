@@ -19,7 +19,7 @@ const Navbar = () => {
         src={mainLogo}
         alt="mainLogo"
       />
-      <div className="bg-[#FFFFFF] md:w-[330px] md:h-[200px] lg:w-[374px] lg:h-[295px] absolute z-10 rounded-full md:rotate-[-40deg] lg:rotate-[-30deg] lg:-top-[210px] lg:left-6 md:-top-[150px] md:left-6"></div>
+      <div className="bg-[#FFFFFF] md:w-[330px] md:h-[200px] lg:w-[374px] lg:h-[295px] absolute z-10 rounded-full md:rotate-[-40deg] lg:rotate-[-30deg] lg:-top-[210px] lg:left-6 xl:left-[4%] md:-top-[150px] md:left-6"></div>
       {/* for medium and large screen nav-items */}
       <ul
         data-aos="fade-right"
