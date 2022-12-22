@@ -5,7 +5,7 @@ import Carousel from "./Carousel";
 const Testimonial = () => {
   return (
     <div
-      id="pages"
+      id="testimonials"
       className="bg-[#F6FAF6] pb-5 h-[100vh] md:h-[1084px] flex flex-col items-center"
     >
       <p

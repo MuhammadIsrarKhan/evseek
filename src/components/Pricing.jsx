@@ -1,7 +1,7 @@
 const Pricing = () => {
   return (
     <div
-      id="blog"
+      id="pricing"
       className="h-[1339px] md:h-[883px]  px-10 bg-[#FFFFFF] flex flex-col items-center"
     >
       <p
